@@ -1,9 +1,9 @@
 
-This is a list of libraries used by SuperTux, with their licenses.
+This is a list of libraries used by Penguin Adventure, with their licenses.
 
 Some licenses require giving proper attribution in executable programs; here
 is where you can find such attribution. If a library is missing, please contact
-the SuperTux Development Team so we can fix this immediately.
+the Penguin Adventure Development Team so we can fix this immediately.
 
 -------------------------------------------------------------------------------
 

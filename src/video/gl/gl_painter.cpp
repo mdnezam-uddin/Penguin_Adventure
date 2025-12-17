@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 #include <math.h>
 
 #include "math/util.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "video/drawing_request.hpp"
 #include "video/gl/gl_context.hpp"
 #include "video/gl/gl_pixel_request.hpp"

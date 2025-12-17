@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //                2023 Vankata453
 //
@@ -17,8 +17,8 @@
 
 #include "gui/menu_transition.hpp"
 
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "video/drawing_context.hpp"
 
 MenuTransition::MenuTransition() :

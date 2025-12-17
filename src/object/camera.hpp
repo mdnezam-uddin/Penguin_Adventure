@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 Vankata453
 //
@@ -25,7 +25,7 @@
 #include "math/size.hpp"
 #include "math/vector.hpp"
 #include "object/path_object.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Path;
 class PathWalker;

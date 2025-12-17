@@ -1,4 +1,4 @@
-//  SuperTux -- Explosion object
+//  Penguin Adventure -- Explosion object
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -26,10 +26,10 @@
 #include "object/particles.hpp"
 #include "object/player.hpp"
 #include "object/weak_block.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 Explosion::Explosion(const Vector& pos, float p_push_strength,
     int p_num_particles, bool p_short_fuse) :

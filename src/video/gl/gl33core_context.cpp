@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #include "video/gl/gl33core_context.hpp"
 
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "video/color.hpp"
 #include "video/gl.hpp"
 #include "video/gl/gl_program.hpp"

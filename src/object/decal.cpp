@@ -1,4 +1,4 @@
-//  SuperTux - Decal
+//  Penguin Adventure - Decal
 //  Copyright (C) 2008 Christoph Sommer <christoph.sommer@2008.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include <simplesquirrel/class.hpp>
 #include <simplesquirrel/vm.hpp>
 
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "sprite/sprite_manager.hpp"
 #include "util/reader.hpp"
 #include "util/reader_mapping.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 Vankata453
 //
@@ -15,8 +15,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_MRICEBLOCK_HPP
-#define HEADER_SUPERTUX_BADGUY_MRICEBLOCK_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_MRICEBLOCK_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_MRICEBLOCK_HPP
 
 #include "badguy/walking_badguy.hpp"
 

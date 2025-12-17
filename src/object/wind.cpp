@@ -1,4 +1,4 @@
-//  SuperTux - Wind
+//  Penguin Adventure - Wind
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -28,7 +28,7 @@
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 

@@ -5,7 +5,7 @@
 // C++/object oriented translation and modification:
 // Copyright (C) 1995 Mordechai T. Abzug
 //
-// Further adaptations for SuperTux:
+// Further adaptations for Penguin Adventure:
 // Copyright (C) 2008 Christoph Sommer <christoph.sommer@2008.expires.deltadevelopment.de>
 //
 // This translation/modification is provided "as is," without express or

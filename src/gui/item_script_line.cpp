@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Hume2 <teratux.mail@gmail.com>
 //                2022 Vankata453
 //
@@ -19,10 +19,10 @@
 
 #include "control/input_manager.hpp"
 #include "gui/menu_script.hpp"
-#include "supertux/colorscheme.hpp"
-#include "supertux/console.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/colorscheme.hpp"
+#include "penguin_adventure/console.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/string_util.hpp"
 #include "video/drawing_context.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #include "gui/item_inactive.hpp"
 
-#include "supertux/colorscheme.hpp"
+#include "penguin_adventure/colorscheme.hpp"
 #include "video/color.hpp"
 
 ItemInactive::ItemInactive(const std::string& text_, bool default_color) :

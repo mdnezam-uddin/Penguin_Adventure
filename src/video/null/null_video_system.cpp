@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,8 +16,8 @@
 
 #include "video/null/null_video_system.hpp"
 
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 #include "video/null/null_renderer.hpp"
 #include "video/null/null_texture.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -22,11 +22,11 @@
 
 #include "control/input_manager.hpp"
 #include "editor/editor.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/fadetoblack.hpp"
-#include "supertux/info_box_line.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/fadetoblack.hpp"
+#include "penguin_adventure/info_box_line.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/log.hpp"
 #include "util/reader.hpp"
 #include "util/reader_collection.hpp"

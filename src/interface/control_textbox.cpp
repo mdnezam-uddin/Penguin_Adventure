@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 
 #include "math/vector.hpp"
 #include "math/rectf.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/log.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2015 Hume2 <teratux.mail@gmail.com>
 //
@@ -17,10 +17,10 @@
 
 #include "gui/menu_item.hpp"
 
-#include "supertux/colorscheme.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/colorscheme.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/drawing_context.hpp"
 
 static const float HELP_TEXT_WIDTH = 800.f;

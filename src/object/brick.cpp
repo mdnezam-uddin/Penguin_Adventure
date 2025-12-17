@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -24,8 +24,8 @@
 #include "object/explosion.hpp"
 #include "object/player.hpp"
 #include "object/portable.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 Brick::Brick(const Vector& pos, int data, const std::string& sprite_name) :

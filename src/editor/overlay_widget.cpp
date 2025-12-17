@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -33,11 +33,11 @@
 #include "object/path_gameobject.hpp"
 #include "object/spawnpoint.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/autotile.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/autotile.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "video/color.hpp"
 #include "video/drawing_context.hpp"
 #include "video/renderer.hpp"

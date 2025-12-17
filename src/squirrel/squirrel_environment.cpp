@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 
 #include "squirrel/squirrel_util.hpp"
 #include "squirrel/squirrel_virtual_machine.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 
 SquirrelEnvironment::SquirrelEnvironment(ssq::VM& vm, const std::string& name) :

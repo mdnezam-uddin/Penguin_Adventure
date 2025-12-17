@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Tobias Markus <tobbi@supertux.org>
 //
 //  This program is free software: you can redistribute it and/or modify

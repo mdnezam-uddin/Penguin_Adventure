@@ -20,9 +20,9 @@
 #include "object/player.hpp"
 #include "object/camera.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "math/random.hpp"
 #include "util/reader_mapping.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2014 Ingo Ruhnke <grumbel@gmail.com>
 //                2023 Vankata453
@@ -33,8 +33,8 @@
 #endif
 
 #include "physfs/util.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/file_system.hpp"
 #include "util/log.hpp"
 #include "util/string_util.hpp"
@@ -270,7 +270,7 @@ public:
     {
       curl_easy_setopt(m_handle, CURLOPT_URL, url.c_str());
       // cppcheck-suppress unknownMacro
-      curl_easy_setopt(m_handle, CURLOPT_USERAGENT, "SuperTux/" PACKAGE_VERSION " libcURL");
+      curl_easy_setopt(m_handle, CURLOPT_USERAGENT, "Penguin Adventure/" PACKAGE_VERSION " libcURL");
 
       curl_easy_setopt(m_handle, CURLOPT_WRITEDATA, this);
       curl_easy_setopt(m_handle, CURLOPT_WRITEFUNCTION, &Transfer::on_data_wrap);
@@ -485,7 +485,7 @@ Downloader::download(const std::string& url,
 
   CURL* curl_handle = curl_easy_init();
   curl_easy_setopt(curl_handle, CURLOPT_URL, url.c_str());
-  curl_easy_setopt(curl_handle, CURLOPT_USERAGENT, "SuperTux/" PACKAGE_VERSION " libcURL");
+  curl_easy_setopt(curl_handle, CURLOPT_USERAGENT, "Penguin Adventure/" PACKAGE_VERSION " libcURL");
   curl_easy_setopt(curl_handle, CURLOPT_WRITEFUNCTION, write_func);
   curl_easy_setopt(curl_handle, CURLOPT_WRITEDATA, userdata);
   curl_easy_setopt(curl_handle, CURLOPT_ERRORBUFFER, error_buffer);

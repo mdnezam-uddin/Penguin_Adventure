@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2024 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #pragma once
 
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 /** Base class for all GameObjects listed as layers in EditorLayersWidget. */
 class LayerObject : public GameObject

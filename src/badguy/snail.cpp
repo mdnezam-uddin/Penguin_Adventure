@@ -1,4 +1,4 @@
-//  SuperTux - Badguy "Snail"
+//  Penguin Adventure - Badguy "Snail"
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,8 +23,8 @@
 #include "object/player.hpp"
 #include "object/portable.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/sector.hpp"
 
 namespace {
 

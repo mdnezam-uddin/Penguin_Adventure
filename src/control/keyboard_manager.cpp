@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>,
 //                2007-2014 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -20,7 +20,7 @@
 #include "control/joystick_manager.hpp"
 #include "control/input_manager.hpp"
 #include "gui/menu_manager.hpp"
-#include "supertux/console.hpp"
+#include "penguin_adventure/console.hpp"
 
 KeyboardManager::KeyboardManager(InputManager* parent,
                                  KeyboardConfig& keyboard_config) :

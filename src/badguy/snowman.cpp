@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2010 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 #include "badguy/snowball.hpp"
 #include "object/bullet.hpp"
 #include "object/player.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 Snowman::Snowman(const ReaderMapping& reader) :
   WalkingBadguy(reader, "images/creatures/snowman/snowman.sprite", "left", "right")

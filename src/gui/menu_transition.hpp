@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //                2023 Vankata453
 //

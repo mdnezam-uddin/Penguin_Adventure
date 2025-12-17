@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 Vankata453
 //
@@ -24,8 +24,8 @@
 #include "object/player.hpp"
 #include "object/portable.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/sector.hpp"
 
 namespace {
   const float KICKSPEED = 500;

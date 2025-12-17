@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,9 +23,9 @@
 #include "object/path_object.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/debug.hpp"
-#include "supertux/level.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/debug.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/log.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/unique_name.hpp"

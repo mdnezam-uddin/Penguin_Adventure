@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=SuperTux @SUPERTUX_VERSION@
+Name=Penguin Adventure @PENGUIN_ADVENTURE_VERSION@
 GenericName=Jump and run game
 Comment=A jump and run game starring Tux
-Exec=supertux2
-Icon=supertux
+Exec=penguin_adventure2
+Icon=penguin_adventure
 Terminal=false
 StartupNotify=false
 Categories=Game;ArcadeGame;

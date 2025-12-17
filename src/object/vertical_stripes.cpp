@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 Grzegorz Przybylski <zwatotem@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "editor/editor.hpp"
 #include "math/rect.hpp"
 #include "math/rectf.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"
 

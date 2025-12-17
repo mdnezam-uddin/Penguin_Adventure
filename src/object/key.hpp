@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "object/moving_sprite.hpp"
 #include "object/player.hpp"
-#include "supertux/physic.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/physic.hpp"
+#include "penguin_adventure/timer.hpp"
 
 #include <list>
 

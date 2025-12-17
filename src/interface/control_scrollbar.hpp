@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //                2023 Vankata453
 //

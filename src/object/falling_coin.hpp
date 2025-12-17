@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Ondrej Hosek <ondra.hosek@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "math/vector.hpp"
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/game_object.hpp"
-#include "supertux/physic.hpp"
+#include "penguin_adventure/game_object.hpp"
+#include "penguin_adventure/physic.hpp"
 
 class FallingCoin final : public GameObject
 {

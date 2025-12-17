@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,9 +23,9 @@
 #include "math/rect.hpp"
 #include "math/size.hpp"
 #include "math/vector.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/screen_manager.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/screen_manager.hpp"
 #include "gui/menu_manager.hpp"
 
 // Minimum and maximum size of the virtual screen, note that the

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 mrkubax10 <mrkubax10@onet.pl>
 //
@@ -26,7 +26,7 @@
 #include "audio/sound_source.hpp"
 #include "editor/editor.hpp"
 #include "object/player.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 

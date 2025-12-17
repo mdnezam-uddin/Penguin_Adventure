@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 mrkubax10 <mrkubax10@onet.pl>
 //                2021 A. Semphris <semphris@protonmail.com>
 //
@@ -21,7 +21,7 @@
 #include "math/anchor_point.hpp"
 #include "object/player.hpp"
 #include "object/text_object.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 #include "video/layer.hpp"

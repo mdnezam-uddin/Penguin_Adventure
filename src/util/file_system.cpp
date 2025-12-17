@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "util/file_system.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 
 #include <filesystem>
 #include <iostream>
@@ -49,7 +49,7 @@
 #include "gui/dialog.hpp"
 #include "util/log.hpp"
 #include "util/string_util.hpp"
-#include "supertux/gameconfig.hpp"
+#include "penguin_adventure/gameconfig.hpp"
 
 #ifndef WIN32
 extern char **environ;

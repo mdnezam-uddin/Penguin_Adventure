@@ -1,115 +1,92 @@
-# SuperTux
+# Penguin Adventure
 
-[![Windows](https://github.com/SuperTux/supertux/actions/workflows/windows.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/windows.yml?branch=master)
-[![MacOS](https://github.com/SuperTux/supertux/actions/workflows/macos.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/macos.yml?branch=master)
-[![GNU/Linux](https://github.com/SuperTux/supertux/actions/workflows/gnulinux.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/gnulinux.yml?branch=master)
-[![Android](https://github.com/SuperTux/supertux/actions/workflows/android.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/android.yml?branch=master)
-<!-- BSD disabled, see https://github.com/SuperTux/supertux/pull/2366#issuecomment-1670925526 -->
-<!-- [![BSD](https://github.com/SuperTux/supertux/actions/workflows/bsd.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/bsd.yml?branch=master) -->
-[![WebAssembly](https://github.com/SuperTux/supertux/actions/workflows/wasm.yml/badge.svg?branch=master)](https://github.com/SuperTux/supertux/actions/workflows/wasm.yml?branch=master)
-[![Github All Releases](https://img.shields.io/github/downloads/supertux/supertux/total.svg?maxAge=2592000)](https://github.com/SuperTux/supertux)
+A fun 2D platformer game featuring a penguin on an exciting adventure!
 
-SuperTux is a jump'n'run game with strong inspiration from the
-Super Mario Bros. games for the various Nintendo platforms.
+## About
 
-Run and jump through multiple worlds, fighting off enemies by jumping
-on them, bumping them from below or tossing objects at them, grabbing
-power-ups and other stuff on the way.
+Penguin Adventure is a classic-style jump'n'run game with challenging levels, various enemies, and power-ups. Guide your penguin through different worlds, collecting coins and defeating enemies along the way.
 
-![Screenshot](https://www.supertux.org/images/0_7_0/github_preview.png)
+## Features
 
+- Classic 2D platformer gameplay
+- Multiple levels with increasing difficulty
+- Various enemies and obstacles
+- Power-ups and collectibles
+- Beautiful graphics and animations
+- Engaging sound effects and music
 
-## Story: Penny gets captured!
+## Building the Game
 
-Tux and Penny were out having a nice picnic on the ice fields of
-Antarctica. Suddenly, a creature jumped from behind an ice bush, there
-was a flash, and Tux fell asleep!
+The game has already been built. The executable is located in the `build` directory.
 
-When Tux wakes up, he finds that Penny is missing. Where she lay
-before now lies a letter:
->Tux, my arch enemy! I have captured your beautiful Penny and have
->taken her to my fortress. The path to my fortress is littered with my
->minions. Give up on the thought of trying to reclaim her, you haven't
->got a chance!
->
->-Nolok
+### Prerequisites
 
-Tux looks and sees Nolok's fortress in the distance. Determined to
-save his beloved Penny, he begins his journey.
+- CMake
+- SDL2 and related libraries
+- OpenAL (for audio)
+- C++ compiler with C++17 support
 
-## Installation
+### Build Instructions
 
-For major platforms, stable releases are built and available for download from
-[supertux.org](https://www.supertux.org/download.html) or alternatively directly
-from [GitHub](https://github.com/SuperTux/supertux/releases). You should be able
-to install these using default tools provided by your platform. On macOS, when
-Gatekeeper is enabled (default) it will refuse to open SuperTux. This is due to
-the lack of a signature on the application. If you wish to open SuperTux anyway
-without disabling the Gatekeeper feature entirely, you can open the application
-from the context menu (control click on the icon). macOS will then remember your
-choice the next time.
+If you need to rebuild the game:
 
-## Documentation
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
 
-Important documentation for SuperTux is contained in multiple files.
-Please see them:
+## Running the Game
 
-* `INSTALL.md` - Requirements, compiling and installing.
-* `README.md` - This file
-* `NEWS.md` - Changes since the previous versions of SuperTux.
-* `LICENSE.txt` - The GNU General Public License, under whose terms SuperTux is
-licensed. (Most of the data subdirectory is also licensed under
-CC-by-SA)
-* `data/credits.stxt` - Credits for people that contributed to the creation of
-SuperTux. (You can view these in the game menu as well.)
+To run the game, execute:
 
+```bash
+./build/supertux2
+```
 
-## Playing the game
+Or from the build directory:
 
-Both keyboards and joysticks/gamepads are supported. You can change
-the controls via the Options menu. Basically, the only keys you will
-need to use in-game are to do the following actions: jump, duck,
-right, left, action and 'P' to pause/unpause the game. There isn't much
-to tell about the first few, but the "action" key allows you to pick
-up objects and use any powerup you got. For instance, with the fire
-flower, you can shoot fireballs, or with the ice flower fire ice pellets.
+```bash
+cd build
+./supertux2
+```
 
-Other useful keys include the Esc key, which is used to go to the menu
-or to go up a level in the menu. The menu can be navigated using the
-arrow keys or the mouse.
+## Controls
 
-In the worldmap, the arrow keys are used to navigate and Enter to
-enter the current level.
+- **Arrow Keys**: Move left/right, duck
+- **Space Bar**: Jump
+- **Ctrl**: Fire/Run
+- **Esc**: Pause menu
 
-## Community
+## Project Structure
 
-In case you need help, feel free to reach out using the following means:
+- `src/` - Source code files
+- `data/` - Game assets (graphics, sounds, music, levels)
+- `build/` - Compiled binaries
+- `external/` - External libraries
+- `tools/` - Development tools and scripts
 
-* **IRC:** [#supertux](ircs://irc.libera.chat/#supertux) on
-  [Libera Chat](https://libera.chat) hosts most of the discussions between
-  developers. Also, real-time support can be provided here. If you don't know
-  how to use an IRC client, you access the channel using a web-based
-  [client](https://kiwiirc.com/nextclient/irc.libera.chat:+6697/?nick=Guest?#supertux).
-  Please stay around after asking questions, otherwise you will be disconnected
-  and might miss potential answers.
-* **Matrix:** [#supertux:matrix.org](https://matrix.to/#/#supertux:matrix.org)
-  is bridged to our IRC room.
-* **[Forum](https://groups.f-hub.org/supertux):** The SuperTux
-  community is also active on the forum, the discussions range from feature
-  proposals to support questions. In particular, most community-contributed
-  add-ons are published there, so this is worth checking.
-* **Mailing Lists:** The
-  [supertux-devel](http://lists.lethargik.org/listinfo.cgi/supertux-devel-lethargik.org)
-  mailing list is dead. Here is the [archive](https://github.com/supertux-community/supertux-devel-maillist).
-* **Social Media:** Mostly on [Twitter](https://twitter.com/supertux_team) at
-  the moment.
-* **Discord:** Also, you can join our [Discord server](https://discord.com/invite/AcvtHWz) to get in touch with us.
+## Development
 
-## Development status
+This project is being developed as part of the 7th Semester Practice in Software Development course.
 
-As of now, with the release of SuperTux 0.6.3 (December 2021), the Forest World is almost
-finished, since the ghost forest section has been included. However, some levels, especially
-the Ghostree Level, are considered to be placeholders, because for the next version (0.7.0) a
-great overhaul is planned with new features like reworked boss fights, graphics, and worlds.
-If you have some Constructive Feedback, Contributions or ideas to share, don't hesitate
-to contact us with one of the possibilities given above.
+### Level 1 Progress
+
+✅ Level 1 Complete - Basic game mechanics and first level implemented
+
+## License
+
+See LICENSE.txt for licensing information.
+
+## Credits
+
+See data/AUTHORS and data/ACKNOWLEDGEMENTS.txt for full credits.
+
+## Repository
+
+GitHub: https://github.com/mdnezam-uddin/Penguin_Adventure.git
+
+---
+
+Enjoy your Penguin Adventure! 🐧

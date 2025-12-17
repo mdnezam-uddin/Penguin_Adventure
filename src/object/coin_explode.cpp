@@ -18,7 +18,7 @@
 
 #include "math/random.hpp"
 #include "object/coin.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 #include <list>
 

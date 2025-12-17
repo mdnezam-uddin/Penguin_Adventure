@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -24,7 +24,7 @@
 #include "editor/widget.hpp"
 #include "math/vector.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 #include "util/typed_uid.hpp"
 
 class AutotileSet;

@@ -1,4 +1,4 @@
-//  SuperTux - "Will-O-Wisp" Badguy
+//  Penguin Adventure - "Will-O-Wisp" Badguy
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -14,8 +14,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_WILLOWISP_HPP
-#define HEADER_SUPERTUX_BADGUY_WILLOWISP_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_WILLOWISP_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_WILLOWISP_HPP
 
 #include "badguy/badguy.hpp"
 #include "object/path_object.hpp"

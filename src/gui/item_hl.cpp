@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,8 +16,8 @@
 
 #include "gui/item_hl.hpp"
 
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "video/drawing_context.hpp"
 
 ItemHorizontalLine::ItemHorizontalLine() :

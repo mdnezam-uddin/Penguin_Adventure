@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2023 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 const float DiveMine::s_trigger_radius = 100.f;
 const float DiveMine::s_swim_speed = 20.f;

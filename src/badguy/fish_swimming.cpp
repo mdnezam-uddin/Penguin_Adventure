@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //  Copyright (C) 2022 Daniel Ward <weluvgoatz@gmail.com>
 //
@@ -19,8 +19,8 @@
 
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/reader_mapping.hpp"
 
 constexpr float FISH_BEACH_TIME = 5.f;

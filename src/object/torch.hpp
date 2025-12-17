@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2017 M. Teufel <mteufel@supertux.org>
 //

@@ -4,7 +4,7 @@ if(BUILD_TESTS)
   find_package(Threads REQUIRED)
   find_package(GTest REQUIRED)
 
-  # build SuperTux tests
+  # build Penguin Adventure tests
   file(GLOB_RECURSE TEST_SUPERTUX_SOURCES tests/*.cpp)
   add_executable(test_supertux2 ${TEST_SUPERTUX_SOURCES})
   target_compile_options(test_supertux2 PRIVATE ${WARNINGS_CXX_FLAGS})

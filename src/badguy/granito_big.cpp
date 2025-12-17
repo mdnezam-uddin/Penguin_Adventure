@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2023 MatusGuy
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "badguy/granito_big.hpp"
 
 #include "util/reader_mapping.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 GranitoBig::GranitoBig(const ReaderMapping& reader) :
   Granito(reader, "images/creatures/granito/big/granito_big.sprite", LAYER_OBJECTS - 2),

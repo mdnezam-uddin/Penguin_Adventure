@@ -1,4 +1,4 @@
-//  SuperTux - End Sequence: Tux walks right
+//  Penguin Adventure - End Sequence: Tux walks right
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #pragma once
 
 #include "object/endsequence.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class EndSequenceWalk final : public EndSequence
 {

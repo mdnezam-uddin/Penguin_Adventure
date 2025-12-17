@@ -1,4 +1,4 @@
-//  SuperTux - End Sequence
+//  Penguin Adventure - End Sequence
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "object/endsequence.hpp"
 
 #include "object/player.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 EndSequence::EndSequence() :
   m_is_running(false),

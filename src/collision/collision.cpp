@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include <algorithm>
 
-#include "supertux/physic.hpp"
+#include "penguin_adventure/physic.hpp"
 #include "collision/collision_object.hpp"
 #include "math/aatriangle.hpp"
 #include "math/rectf.hpp"

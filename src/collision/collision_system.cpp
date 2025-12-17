@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -24,9 +24,9 @@
 #include "math/rect.hpp"
 #include "object/player.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "video/color.hpp"
 #include "video/drawing_context.hpp"
 

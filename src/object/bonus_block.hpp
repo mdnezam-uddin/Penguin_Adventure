@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "object/block.hpp"
 
-#include "supertux/direction.hpp"
-#include "supertux/player_status.hpp"
+#include "penguin_adventure/direction.hpp"
+#include "penguin_adventure/player_status.hpp"
 
 class Player;
 

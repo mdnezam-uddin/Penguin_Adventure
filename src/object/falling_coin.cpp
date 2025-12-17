@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Ondrej Hosek <ondra.hosek@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"
 

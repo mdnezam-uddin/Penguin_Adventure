@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //                2023 Vankata453
 //
@@ -23,8 +23,8 @@
 #include "gui/menu.hpp"
 #include "gui/mousecursor.hpp"
 #include "gui/notification.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/menu/menu_storage.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
 #include "util/log.hpp"
 #include "video/drawing_context.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 #include "object/explosion.hpp"
 #include "object/player.hpp"
 #include "object/shard.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 #include "util/reader_mapping.hpp"
 

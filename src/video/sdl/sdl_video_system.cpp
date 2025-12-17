@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include <sstream>
 
 #include "math/rect.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 #include "video/renderer.hpp"
 #include "video/sdl/sdl_screen_renderer.hpp"

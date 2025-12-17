@@ -1,4 +1,4 @@
-//  SuperTux - Switch Trigger
+//  Penguin Adventure - Switch Trigger
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include <sstream>
 
 #include "audio/sound_manager.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/log.hpp"
 #include "util/reader_mapping.hpp"
 

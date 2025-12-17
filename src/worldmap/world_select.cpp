@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,10 +21,10 @@
 #include "control/controller.hpp"
 #include "math/util.hpp"
 #include "squirrel/squirrel_virtual_machine.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/fadetoblack.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/screen_manager.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/fadetoblack.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/screen_manager.hpp"
 #include "util/log.hpp"
 #include "util/reader_document.hpp"
 #include "util/reader_mapping.hpp"

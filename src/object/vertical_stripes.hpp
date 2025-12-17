@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 Grzegorz Przybylski <zwatotem@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "math/rect.hpp"
 #include "math/rectf.hpp"
 
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 class VerticalStripes final : public GameObject
 {

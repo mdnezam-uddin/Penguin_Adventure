@@ -1,4 +1,4 @@
-//  SuperTux - Corrupted Root
+//  Penguin Adventure - Corrupted Root
 //  Copyright (C) 2023 MatusGuy <matusguy@supertuxproject.org>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 #include "math/random.hpp"
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 constexpr float HATCH_TIME = 0.7f;

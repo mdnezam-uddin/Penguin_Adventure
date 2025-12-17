@@ -1,4 +1,4 @@
-//  SuperTux - PushButton running a script
+//  Penguin Adventure - PushButton running a script
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,8 +22,8 @@
 #include "object/player.hpp"
 #include "object/rock.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 namespace {

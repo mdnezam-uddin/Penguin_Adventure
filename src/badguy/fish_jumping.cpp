@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include "audio/sound_manager.hpp"
 #include "object/explosion.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 
 static const float FISH_JUMP_POWER = -600.f;
 static const float FISH_WAIT_TIME = 1.f;

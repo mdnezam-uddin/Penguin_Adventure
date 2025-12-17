@@ -17,7 +17,7 @@
 
 #include "editor/editor.hpp"
 #include "math/util.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 #include "video/surface.hpp"

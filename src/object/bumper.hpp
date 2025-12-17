@@ -17,7 +17,7 @@
 
 #include "object/sticky_object.hpp"
 
-#include "supertux/physic.hpp"
+#include "penguin_adventure/physic.hpp"
 
 enum class Direction;
 class Player;

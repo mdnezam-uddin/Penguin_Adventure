@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 
 #include "audio/sound_manager.hpp"
 #include "object/player.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 namespace

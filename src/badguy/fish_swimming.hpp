@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //  Copyright (C) 2022 Daniel Ward <weluvgoatz@gmail.com>
 //

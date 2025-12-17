@@ -1,6 +1,6 @@
 //  $Id$
 //
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Matt McCutchen
 //
 //  This program is free software; you can redistribute it and/or

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2010 Florian Forster <supertux at octo.it>
 //
@@ -15,8 +15,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_HAYWIRE_HPP
-#define HEADER_SUPERTUX_BADGUY_HAYWIRE_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_HAYWIRE_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_HAYWIRE_HPP
 
 #include "badguy/walking_badguy.hpp"
 

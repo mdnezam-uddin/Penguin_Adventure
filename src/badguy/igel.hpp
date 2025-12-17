@@ -1,4 +1,4 @@
-//  SuperTux - Badguy "Igel"
+//  Penguin Adventure - Badguy "Igel"
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 MatusGuy
 //
@@ -15,12 +15,12 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_IGEL_HPP
-#define HEADER_SUPERTUX_BADGUY_IGEL_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_IGEL_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_IGEL_HPP
 
 #include "badguy/walking_badguy.hpp"
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Igel final : public WalkingBadguy
 {

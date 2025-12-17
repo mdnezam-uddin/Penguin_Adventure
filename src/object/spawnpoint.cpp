@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "object/spawnpoint.hpp"
 
 #include "editor/editor.hpp"
-#include "supertux/debug.hpp"
+#include "penguin_adventure/debug.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"

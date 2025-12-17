@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -32,10 +32,10 @@
 #include "object/water_drop.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/level.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 
@@ -899,7 +899,7 @@ BadGuy::is_offscreen() const
   if (!Editor::is_active()) {
     player_dist = player->get_bbox().get_middle() - m_col.m_bbox.get_middle();
   }
-  // In SuperTux 0.1.x, Badguys were activated when Tux<->Badguy center distance was approx. <= ~668px.
+  // In Penguin Adventure 0.1.x, Badguys were activated when Tux<->Badguy center distance was approx. <= ~668px.
   // This doesn't work for wide-screen monitors which give us a virt. res. of approx. 1066px x 600px.
   if (((fabsf(player_dist.x) <= X_OFFSCREEN_DISTANCE) && (fabsf(player_dist.y) <= Y_OFFSCREEN_DISTANCE))
       ||((fabsf(cam_dist.x) <= X_OFFSCREEN_DISTANCE) && (fabsf(cam_dist.y) <= Y_OFFSCREEN_DISTANCE))) {

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 #include "math/random.hpp"
 #include "math/util.hpp"
 #include "object/camera.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "video/drawing_context.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"

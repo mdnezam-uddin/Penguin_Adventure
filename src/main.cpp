@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include <config.h>
 #include <memory>
 
-#include "supertux/main.hpp"
+#include "penguin_adventure/main.hpp"
 
 static std::unique_ptr<Main> g_main;
 

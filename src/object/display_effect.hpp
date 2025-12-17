@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,12 +16,12 @@
 
 #pragma once
 
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 /**
  * @scripting
  * @summary ""DisplayEffect"" is an interface for toying with the display.
- * @instances SuperTux creates an instance named ""Effect"" when starting the scripting engine.
+ * @instances Penguin Adventure creates an instance named ""Effect"" when starting the scripting engine.
               Its usage is preferred – creating another instance might have unexpected side effects and is strongly discouraged.
               (Use ""sector.Effect"" in the console.)
  */

@@ -1,4 +1,4 @@
-//  SuperTux - Add-on Manager
+//  Penguin Adventure - Add-on Manager
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2014 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -25,10 +25,10 @@
 #include "addon/md5.hpp"
 #include "gui/dialog.hpp"
 #include "physfs/util.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/menu/addon_menu.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/menu/addon_menu.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/file_system.hpp"
 #include "util/gettext.hpp"
 #include "util/log.hpp"
@@ -41,7 +41,7 @@
 namespace {
 
 static const char* ADDON_INFO_PATH = "/addons/repository.nfo";
-static const char* ADDON_REPOSITORY_URL = "https://raw.githubusercontent.com/SuperTux/addons/master/index-0_6.nfo";
+static const char* ADDON_REPOSITORY_URL = "https://raw.githubusercontent.com/Penguin Adventure/addons/master/index-0_6.nfo";
 
 MD5 md5_from_file(const std::string& filename)
 {

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2024 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "badguy/badguy.hpp"
 #include "object/moving_sprite.hpp"
 
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 /** This is a class for MovingSprites that can stick to the sides, top and bottom of MovingObjects,
     such as platforms, fallblock, tilemap, etc. */

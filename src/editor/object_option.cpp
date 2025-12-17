@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -41,9 +41,9 @@
 #include "interface/control_textbox_float.hpp"
 #include "interface/control_textbox_int.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/direction.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/direction.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/moving_object.hpp"
 #include "util/gettext.hpp"
 #include "util/log.hpp"
 #include "util/reader_iterator.hpp"

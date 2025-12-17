@@ -1,4 +1,4 @@
-(supertux-text
+(penguin_adventure-text
   (version 2)
   (speed 80)
   (content
@@ -32,7 +32,7 @@
   
   (text
     (type "heading")
-    (string (_ "The SuperTux Team"))
+    (string (_ "The Penguin Adventure Team"))
   )
   (blank)
   
@@ -1393,7 +1393,7 @@
     
   (person
     (name "Bill Kendrick")
-    (info (_ "Original creator of SuperTux"))
+    (info (_ "Original creator of Penguin Adventure"))
     (image "images/credits/bill.png")
   )
     
@@ -1434,7 +1434,7 @@
   )
   (text
     (type "reference")
-    (string "https://supertux.org")
+    (string "https://penguin_adventure.org")
   )
 
   (blank)
@@ -1464,7 +1464,7 @@
 
   (text
     (type "reference")
-    (string "https://github.com/supertux")
+    (string "https://github.com/penguin_adventure")
   )
       
   (blank)
@@ -1479,7 +1479,7 @@
 
   (text
     (type "reference")
-    (string "https://www.transifex.com/arctic-games/supertux/")
+    (string "https://www.transifex.com/arctic-games/penguin_adventure/")
   )
     
   (blank)

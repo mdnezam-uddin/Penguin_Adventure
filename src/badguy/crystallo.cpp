@@ -1,4 +1,4 @@
-//  SuperTux - Crystallo
+//  Penguin Adventure - Crystallo
 //  Copyright (C) 2008 Wolfgang Becker <uafr@gmx.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "badguy/crystallo.hpp"
 
 #include "badguy/rcrystallo.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 Crystallo::Crystallo(const ReaderMapping& reader) :

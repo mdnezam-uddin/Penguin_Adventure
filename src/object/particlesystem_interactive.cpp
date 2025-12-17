@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,9 +19,9 @@
 #include "collision/collision.hpp"
 #include "math/aatriangle.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface_batch.hpp"
 #include "video/video_system.hpp"

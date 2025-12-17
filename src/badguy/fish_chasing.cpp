@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,8 +17,8 @@
 #include "badguy/fish_chasing.hpp"
 
 #include "object/player.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/reader_mapping.hpp"
 
 static const float TRACK_DISTANCE = 200.0f;

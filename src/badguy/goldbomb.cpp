@@ -1,4 +1,4 @@
-//  SuperTux BadGuy GoldBomb - a bomb that throws up coins when exploding
+//  Penguin Adventure BadGuy GoldBomb - a bomb that throws up coins when exploding
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2013 LMH <lmh.0013@gmail.com>
 //
@@ -27,7 +27,7 @@
 #include "object/portable.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 static const float HOP_HEIGHT = -250.f;

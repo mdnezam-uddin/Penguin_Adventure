@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "editor/editor.hpp"
 #include "object/player.hpp"
-#include "supertux/debug.hpp"
+#include "penguin_adventure/debug.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 #include "video/drawing_context.hpp"

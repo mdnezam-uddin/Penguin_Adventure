@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -26,14 +26,14 @@
 #include "object/camera.hpp"
 #include "object/path_gameobject.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/colorscheme.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/moving_object.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/colorscheme.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/moving_object.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "video/drawing_context.hpp"
 #include "video/renderer.hpp"
 #include "video/video_system.hpp"

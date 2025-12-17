@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //                2024 Vankata453
 //                2025 Tobias Markus <tobbi.bugs@gmail.com>
@@ -27,12 +27,12 @@
 #include "gui/menu.hpp"
 #include "gui/notification.hpp"
 #include "math/util.hpp"
-#include "supertux/colorscheme.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/level.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/colorscheme.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/gettext.hpp"
 #include "video/drawing_context.hpp"
 #include "video/video_system.hpp"

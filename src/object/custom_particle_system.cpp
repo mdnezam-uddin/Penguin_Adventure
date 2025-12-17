@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -28,11 +28,11 @@
 #include "math/util.hpp"
 #include "object/camera.hpp"
 #include "object/tilemap.hpp"
-#include "supertux/fadetoblack.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/fadetoblack.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/reader.hpp"
 #include "util/reader_document.hpp"
 #include "util/reader_mapping.hpp"

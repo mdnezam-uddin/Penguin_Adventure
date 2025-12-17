@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //	Updated by GiBy 2013 for SDL2 <giby_the_kid@yahoo.fr>
 //
@@ -18,8 +18,8 @@
 #include "video/sdl/sdl_screen_renderer.hpp"
 
 #include "math/rect.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 #include "video/sdl/sdl_painter.hpp"
 #include "video/sdl/sdl_video_system.hpp"

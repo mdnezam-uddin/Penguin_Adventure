@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include "editor/object_option.hpp"
 #include "object/moving_sprite.hpp"
 #include "object/portable.hpp"
-#include "supertux/physic.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/physic.hpp"
+#include "penguin_adventure/timer.hpp"
 
 enum class Direction;
 class Player;

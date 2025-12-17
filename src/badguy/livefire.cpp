@@ -1,4 +1,4 @@
-//  SuperTux badguy - walking flame that glows
+//  Penguin Adventure badguy - walking flame that glows
 //  Copyright (C) 2013 LMH <lmh.0013@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 #include "object/player.hpp"
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 LiveFire::LiveFire(const ReaderMapping& reader) :
   WalkingBadguy(reader, "images/creatures/livefire/livefire.sprite", "left", "right"),

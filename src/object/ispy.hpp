@@ -1,4 +1,4 @@
-//  SuperTux - Ispy
+//  Penguin Adventure - Ispy
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2022 Jiri Palecek <narre@protonmail.com>
 //
@@ -18,7 +18,7 @@
 #pragma once
 
 #include "object/sticky_object.hpp"
-#include "supertux/direction.hpp"
+#include "penguin_adventure/direction.hpp"
 
 /** An Ispy: When it spots Tux, a script will run. */
 class Ispy final : public StickyObject

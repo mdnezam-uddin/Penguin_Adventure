@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2024 MatusGuy <matusguy@supertuxproject.org>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -14,8 +14,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_TARANTULA_HPP
-#define HEADER_SUPERTUX_BADGUY_TARANTULA_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_TARANTULA_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_TARANTULA_HPP
 
 #include "badguy/badguy.hpp"
 

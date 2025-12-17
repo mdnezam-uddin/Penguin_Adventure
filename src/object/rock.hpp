@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "object/moving_sprite.hpp"
 #include "object/portable.hpp"
-#include "supertux/physic.hpp"
+#include "penguin_adventure/physic.hpp"
 
 class Rock : public MovingSprite,
              public Portable

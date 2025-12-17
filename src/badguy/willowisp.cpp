@@ -1,4 +1,4 @@
-//  SuperTux - "Will-O-Wisp" Badguy
+//  Penguin Adventure - "Will-O-Wisp" Badguy
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,9 +23,9 @@
 #include "object/lantern.hpp"
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 

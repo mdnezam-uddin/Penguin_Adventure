@@ -27,10 +27,10 @@ else()
     set(INFOPLIST_CFBUNDLEEXECUTABLE "supertux2")
 
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/tools/darwin/info.plist.in ${CMAKE_BINARY_DIR}/tools/darwin/info.plist)
-    install(FILES ${CMAKE_BINARY_DIR}/tools/darwin/info.plist DESTINATION "SuperTux.app/Contents/")
-    install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/tools/darwin/receipt DESTINATION "SuperTux.app/Contents/_MASReceipt/")
+    install(FILES ${CMAKE_BINARY_DIR}/tools/darwin/info.plist DESTINATION "Penguin Adventure.app/Contents/")
+    install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/tools/darwin/receipt DESTINATION "Penguin Adventure.app/Contents/_MASReceipt/")
 
-    install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/images/engine/icons/supertux.png ${CMAKE_CURRENT_SOURCE_DIR}/data/images/engine/icons/supertux.icns DESTINATION "SuperTux.app/Contents/Resources/")
+    install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/images/engine/icons/supertux.png ${CMAKE_CURRENT_SOURCE_DIR}/data/images/engine/icons/supertux.icns DESTINATION "Penguin Adventure.app/Contents/Resources/")
 
   else()
 
@@ -78,7 +78,7 @@ install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/README.md
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/credits.stxt
         DESTINATION ${INSTALL_SUBDIR_SHARE})
 
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/org.supertuxproject.SuperTux.metainfo.xml
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/org.supertuxproject.Penguin Adventure.metainfo.xml
         DESTINATION "share/metainfo")
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data/images

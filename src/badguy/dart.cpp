@@ -19,7 +19,7 @@
 #include "audio/sound_manager.hpp"
 #include "audio/sound_source.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 
 namespace {
 const float DART_SPEED = 200;

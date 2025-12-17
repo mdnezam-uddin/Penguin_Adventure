@@ -1,4 +1,4 @@
-//  SuperTux - Climbable area
+//  Penguin Adventure - Climbable area
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "editor/editor.hpp"
 #include "object/player.hpp"
-#include "supertux/debug.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/debug.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 #include "video/video_system.hpp"

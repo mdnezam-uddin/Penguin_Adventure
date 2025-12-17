@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #pragma once
 
 #include "object/moving_sprite.hpp"
-#include "supertux/physic.hpp"
+#include "penguin_adventure/physic.hpp"
 
 /** When a badguy melts, it creates this object. */
 

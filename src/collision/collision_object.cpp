@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -18,7 +18,7 @@
 #include "collision/collision_object.hpp"
 
 #include "collision/collision_movement_manager.hpp"
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/moving_object.hpp"
 
 CollisionObject::CollisionObject(CollisionGroup group, MovingObject& parent) :
   m_parent(parent),

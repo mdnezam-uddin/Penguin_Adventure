@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include <sstream>
 
 #include "math/util.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/drawing_context.hpp"
 
 namespace {

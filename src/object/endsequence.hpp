@@ -1,4 +1,4 @@
-//  SuperTux - End Sequence
+//  Penguin Adventure - End Sequence
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #pragma once
 
 #include "control/codecontroller.hpp"
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 #include <unordered_map>
 

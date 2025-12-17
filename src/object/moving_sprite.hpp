@@ -1,4 +1,4 @@
-//  SuperTux - MovingSprite Base Class
+//  Penguin Adventure - MovingSprite Base Class
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "math/anchor_point.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/moving_object.hpp"
 #include "video/drawing_context.hpp"
 #include "video/flip.hpp"
 

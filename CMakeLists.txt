@@ -1,5 +1,5 @@
 #
-# SuperTux - root build script
+# Penguin Adventure - root build script
 # Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 #
 # This program is free software; you can redistribute it and/or modify
@@ -39,7 +39,7 @@ cmake_minimum_required(VERSION 3.22)
 
 ## Project name to use as command prefix.
 
-project(SUPERTUX LANGUAGES C CXX)
+project(PENGUIN_ADVENTURE LANGUAGES C CXX)
 
 if(COMMAND cmake_policy)
   cmake_policy(SET CMP0069 NEW)
@@ -62,7 +62,7 @@ include(CheckCXXCompilerFlag)
 include(CheckSymbolExists)
 
 ## For autopackage
-set(APPDATADIR "${CMAKE_INSTALL_PREFIX}/share/games/supertux2")
+set(APPDATADIR "${CMAKE_INSTALL_PREFIX}/share/games/penguin_adventure2")
 
 set(BUILD_DATA_DIR "${CMAKE_CURRENT_SOURCE_DIR}/data")
 set(BUILD_CONFIG_DATA_DIR "${CMAKE_BINARY_DIR}/data")
@@ -74,13 +74,13 @@ if(WIN32 AND NOT UNIX)
   set(INSTALL_SUBDIR_DOC "doc" CACHE STRING "Installation subdir for docs")
 else()
   if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin" AND DISABLE_CPACK_BUNDLING)
-    set(INSTALL_SUBDIR_BIN "SuperTux.app/Contents/MacOS" CACHE STRING "Installation subdir for binaries")
-    set(INSTALL_SUBDIR_SHARE "SuperTux.app/Contents/Resources/data" CACHE STRING "Installation subdir for data")
-    set(INSTALL_SUBDIR_DOC "SuperTux.app/Contents/Resources" CACHE STRING "Installation subdir for docs")
+    set(INSTALL_SUBDIR_BIN "Penguin Adventure.app/Contents/MacOS" CACHE STRING "Installation subdir for binaries")
+    set(INSTALL_SUBDIR_SHARE "Penguin Adventure.app/Contents/Resources/data" CACHE STRING "Installation subdir for data")
+    set(INSTALL_SUBDIR_DOC "Penguin Adventure.app/Contents/Resources" CACHE STRING "Installation subdir for docs")
   else()
     set(INSTALL_SUBDIR_BIN "games" CACHE STRING "Installation subdir for binaries")
-    set(INSTALL_SUBDIR_SHARE "share/games/supertux2" CACHE STRING "Installation subdir for data")
-    set(INSTALL_SUBDIR_DOC "share/doc/supertux2" CACHE STRING "Installation subdir for docs")
+    set(INSTALL_SUBDIR_SHARE "share/games/penguin_adventure2" CACHE STRING "Installation subdir for data")
+    set(INSTALL_SUBDIR_DOC "share/doc/penguin_adventure2" CACHE STRING "Installation subdir for docs")
   endif()
 endif()
 
@@ -90,18 +90,18 @@ else()
   option(REMOVE_QUIT_BUTTON "Remove the option to quit the game (useful on mobile devices)" OFF)
 endif()
 
-option(IS_SUPERTUX_RELEASE "Build as official SuperTux release" NO)
-if(IS_SUPERTUX_RELEASE)
+option(IS_PENGUIN_ADVENTURE_RELEASE "Build as official Penguin Adventure release" NO)
+if(IS_PENGUIN_ADVENTURE_RELEASE)
   option(STEAM_BUILD "Prepare build for Steam" OFF)
 endif()
 
 if(NOT EMSCRIPTEN)
   # FIXME: As of writing, Emscripten fails with "wasm-ld: error: /path/to/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/thinlto/libc.a(fileno.o): attempt to add bitcode file after LTO (fileno)"
   # Seems to be a known issue: https://github.com/emscripten-core/emscripten/issues/20275
-  option(SUPERTUX_IPO "Use interprocedural optimisation (Takes more RAM at compilation, gives smaller and faster executables)" OFF)
+  option(PENGUIN_ADVENTURE_IPO "Use interprocedural optimisation (Takes more RAM at compilation, gives smaller and faster executables)" OFF)
 endif()
 
-if(SUPERTUX_IPO)
+if(PENGUIN_ADVENTURE_IPO)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result)
   if(result)
@@ -122,8 +122,8 @@ endif()
 include(ConfigureChecks)
 
 ## Some additional compiler switches
-include(SuperTux/ClangTidy)
-include(SuperTux/WarningFlags)
+include(Penguin Adventure/ClangTidy)
+include(Penguin Adventure/WarningFlags)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-strict-aliasing")
@@ -147,7 +147,7 @@ endif()
 option(ENABLE_OPENGL "Enable OpenGL support" ON)
 
 # Find dependencies
-include(SuperTux/AddPackage)
+include(Penguin Adventure/AddPackage)
 
 add_package(TARGET PNG
   PKG PNG PKG_USE PNG::PNG PKG_CONFIG libpng REQUIRED)
@@ -181,7 +181,7 @@ if(NOT EMSCRIPTEN)
   add_package(TARGET VorbisFile
     PKG Vorbis PKG_USE Vorbis::vorbisfile CONFIG REQUIRED PKG_CONFIG vorbisfile)
 else()
-  include(SuperTux/Emscripten)
+  include(Penguin Adventure/Emscripten)
 endif()
 
 if(TARGET RAQM)
@@ -226,82 +226,82 @@ if(ENABLE_OPENGL AND NOT EMSCRIPTEN)
 endif()
 
 ## Build stuff
-include(SuperTux/BuildVersion)
-include(SuperTux/BuildDocumentation)
-include(SuperTux/BuildMessagePot)
+include(Penguin Adventure/BuildVersion)
+include(Penguin Adventure/BuildDocumentation)
+include(Penguin Adventure/BuildMessagePot)
 
-## Build list of sources for supertux binary
-set(SUPERTUX_SOURCES_C ${CMAKE_CURRENT_SOURCE_DIR})
+## Build list of sources for penguin_adventure binary
+set(PENGUIN_ADVENTURE_SOURCES_C ${CMAKE_CURRENT_SOURCE_DIR})
 
-file(GLOB SUPERTUX_SOURCES_CXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/*/*.cpp src/supertux/menu/*.cpp src/video/sdl/*.cpp src/video/null/*.cpp)
-file(GLOB SUPERTUX_SOURCES_HXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/*/*.hpp src/supertux/menu/*.hpp src/video/sdl/*.hpp src/video/null/*.hpp)
-file(GLOB SUPERTUX_RESOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${PROJECT_BINARY_DIR}/tmp/*.rc")
+file(GLOB PENGUIN_ADVENTURE_SOURCES_CXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/*/*.cpp src/penguin_adventure/menu/*.cpp src/video/sdl/*.cpp src/video/null/*.cpp)
+file(GLOB PENGUIN_ADVENTURE_SOURCES_HXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/*/*.hpp src/penguin_adventure/menu/*.hpp src/video/sdl/*.hpp src/video/null/*.hpp)
+file(GLOB PENGUIN_ADVENTURE_RESOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${PROJECT_BINARY_DIR}/tmp/*.rc")
 
 if(HAVE_OPENGL)
   message(STATUS "Adding OpenGL sources")
-  file(GLOB SUPERTUX_OPENGL_SOURCES_CXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/video/gl/*.cpp)
-  file(GLOB SUPERTUX_OPENGL_SOURCES_HXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/video/gl/*.hpp)
-  set(SUPERTUX_SOURCES_CXX ${SUPERTUX_SOURCES_CXX} ${SUPERTUX_OPENGL_SOURCES_CXX})
-  set(SUPERTUX_SOURCES_HXX ${SUPERTUX_SOURCES_HXX} ${SUPERTUX_OPENGL_SOURCES_HXX})
+  file(GLOB PENGUIN_ADVENTURE_OPENGL_SOURCES_CXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/video/gl/*.cpp)
+  file(GLOB PENGUIN_ADVENTURE_OPENGL_SOURCES_HXX RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} src/video/gl/*.hpp)
+  set(PENGUIN_ADVENTURE_SOURCES_CXX ${PENGUIN_ADVENTURE_SOURCES_CXX} ${PENGUIN_ADVENTURE_OPENGL_SOURCES_CXX})
+  set(PENGUIN_ADVENTURE_SOURCES_HXX ${PENGUIN_ADVENTURE_SOURCES_HXX} ${PENGUIN_ADVENTURE_OPENGL_SOURCES_HXX})
 endif()
 
 ## Sort source lists to have deterministic linking order
-list(SORT SUPERTUX_SOURCES_C)
-list(SORT SUPERTUX_SOURCES_CXX)
-list(SORT SUPERTUX_RESOURCES)
+list(SORT PENGUIN_ADVENTURE_SOURCES_C)
+list(SORT PENGUIN_ADVENTURE_SOURCES_CXX)
+list(SORT PENGUIN_ADVENTURE_RESOURCES)
 
-include(SuperTux/CompileAmalgation)
+include(Penguin Adventure/CompileAmalgation)
 
-## Add target for supertux binary
-add_executable(supertux2 ${SUPERTUX_WIN32_OPTION} ${CMAKE_BINARY_DIR}/version.h ${SUPERTUX_SOURCES_C} ${SUPERTUX_SOURCES_CXX} ${SUPERTUX_SOURCES_HXX} ${SUPERTUX_RESOURCES} src/main.cpp)
-target_compile_features(supertux2 PUBLIC cxx_std_17)
+## Add target for penguin_adventure binary
+add_executable(penguin_adventure2 ${PENGUIN_ADVENTURE_WIN32_OPTION} ${CMAKE_BINARY_DIR}/version.h ${PENGUIN_ADVENTURE_SOURCES_C} ${PENGUIN_ADVENTURE_SOURCES_CXX} ${PENGUIN_ADVENTURE_SOURCES_HXX} ${PENGUIN_ADVENTURE_RESOURCES} src/main.cpp)
+target_compile_features(penguin_adventure2 PUBLIC cxx_std_17)
 
 # Pre-compiled headers
-if(IS_SUPERTUX_RELEASE)
-  option(SUPERTUX_PCH "Pre-compile headers (faster compilation)" ON)
+if(IS_PENGUIN_ADVENTURE_RELEASE)
+  option(PENGUIN_ADVENTURE_PCH "Pre-compile headers (faster compilation)" ON)
 else()
-  option(SUPERTUX_PCH "Pre-compile headers (faster compilation)" OFF)
+  option(PENGUIN_ADVENTURE_PCH "Pre-compile headers (faster compilation)" OFF)
 endif()
 
-if(SUPERTUX_PCH)
-  target_precompile_headers(supertux2 PRIVATE ${SUPERTUX_HEADERS})
+if(PENGUIN_ADVENTURE_PCH)
+  target_precompile_headers(penguin_adventure2 PRIVATE ${PENGUIN_ADVENTURE_HEADERS})
 endif()
 
-target_include_directories(supertux2 PUBLIC ${CMAKE_BINARY_DIR} src/)
+target_include_directories(penguin_adventure2 PUBLIC ${CMAKE_BINARY_DIR} src/)
 
 if(CMAKE_SYSTEM_NAME MATCHES "FreeBSD|NetBSD")
-  target_link_options(supertux2 PUBLIC -lexecinfo)
+  target_link_options(penguin_adventure2 PUBLIC -lexecinfo)
 endif()
 
 if(WIN32)
-  include(SuperTux/Win32)
+  include(Penguin Adventure/Win32)
 endif()
 
 if(EMSCRIPTEN)
-  target_link_options(supertux2 PUBLIC -sEXPORTED_FUNCTIONS=['_main','_set_resolution','_save_config','_onDownloadProgress','_onDownloadFinished','_onDownloadError','_onDownloadAborted','_getExceptionMessage'] PUBLIC -sEXPORTED_RUNTIME_METHODS=['ccall','cwrap'])
+  target_link_options(penguin_adventure2 PUBLIC -sEXPORTED_FUNCTIONS=['_main','_set_resolution','_save_config','_onDownloadProgress','_onDownloadFinished','_onDownloadError','_onDownloadAborted','_getExceptionMessage'] PUBLIC -sEXPORTED_RUNTIME_METHODS=['ccall','cwrap'])
 endif()
 
-set_target_properties(supertux2 PROPERTIES OUTPUT_NAME "supertux2")
-set_target_properties(supertux2 PROPERTIES COMPILE_FLAGS "${SUPERTUX2_EXTRA_WARNING_FLAGS}")
+set_target_properties(penguin_adventure2 PROPERTIES OUTPUT_NAME "penguin_adventure2")
+set_target_properties(penguin_adventure2 PROPERTIES COMPILE_FLAGS "${PENGUIN_ADVENTURE2_EXTRA_WARNING_FLAGS}")
 
 # Include altivec wrapper on ppc
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "^ppc.*")
-  target_include_directories(supertux2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ppc)
+  target_include_directories(penguin_adventure2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ppc)
 endif()
 
-## Link supertux binary with squirrel and other libraries
+## Link penguin_adventure binary with squirrel and other libraries
 if(MSVC)
-  target_link_libraries(supertux2 PUBLIC simplesquirrel_static)
+  target_link_libraries(penguin_adventure2 PUBLIC simplesquirrel_static)
 else()
-  target_link_libraries(supertux2 PUBLIC simplesquirrel)
+  target_link_libraries(penguin_adventure2 PUBLIC simplesquirrel)
 endif()
-target_link_libraries(supertux2 PUBLIC
+target_link_libraries(penguin_adventure2 PUBLIC
   tinygettext sexp SDL_SavePNG SDL2_ttf
   PartioZip OpenAL FindLocale obstack glm fmt PhysFS)
-target_compile_definitions(supertux2 PUBLIC GLM_ENABLE_EXPERIMENTAL)
+target_compile_definitions(penguin_adventure2 PUBLIC GLM_ENABLE_EXPERIMENTAL)
 
 if(NOT EMSCRIPTEN)
-  target_link_libraries(supertux2 PUBLIC
+  target_link_libraries(penguin_adventure2 PUBLIC
     # SDL2_image
     SDL2_image
     # SDL2 main (windows?)
@@ -309,24 +309,24 @@ if(NOT EMSCRIPTEN)
     # SDL2
     SDL2
   )
-  target_link_libraries(supertux2 PUBLIC
+  target_link_libraries(penguin_adventure2 PUBLIC
     Ogg
     Vorbis
     VorbisFile
   )
-  target_link_libraries(supertux2 PUBLIC libcurl)
+  target_link_libraries(penguin_adventure2 PUBLIC libcurl)
 
   if(HAVE_OPENGL)
-    target_link_libraries(supertux2 PUBLIC OpenGL::GL GLEW)
+    target_link_libraries(penguin_adventure2 PUBLIC OpenGL::GL GLEW)
   endif()
 
   if(ENABLE_DISCORD)
-    target_link_libraries(supertux2 PUBLIC discord-rpc)
+    target_link_libraries(penguin_adventure2 PUBLIC discord-rpc)
   endif()
 endif()
 
 ## Install stuff
-include(SuperTux/BuildInstall)
+include(Penguin Adventure/BuildInstall)
 
 ## Create config.h now that INSTALL_SUBDIR_* have been set.
 configure_file(config.h.in ${CMAKE_BINARY_DIR}/config.h)
@@ -342,7 +342,7 @@ if(BUILD_TESTING)
 endif()
 
 ## CPack/Installation-specific stuff
-include(SuperTux/BuildCPack)
+include(Penguin Adventure/BuildCPack)
 
 # move some config clutter to the advanced section
 mark_as_advanced(

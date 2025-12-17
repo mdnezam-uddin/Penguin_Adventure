@@ -1,4 +1,4 @@
-//  SuperTux -- Explosion object
+//  Penguin Adventure -- Explosion object
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "object/moving_sprite.hpp"
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 #define EXPLOSION_STRENGTH_DEFAULT (1464.8f * 32.0f * 32.0f)
 #define EXPLOSION_STRENGTH_NEAR (1000.f * 32.0f * 32.0f)

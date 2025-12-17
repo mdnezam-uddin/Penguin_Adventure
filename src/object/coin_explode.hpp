@@ -17,7 +17,7 @@
 #pragma once
 
 #include "math/vector.hpp"
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 class CoinExplode final : public GameObject
 {

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #include "editor/marker_object.hpp"
 
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/color.hpp"
 #include "video/drawing_context.hpp"
 #include "video/renderer.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux - Add-on Manager
+//  Penguin Adventure - Add-on Manager
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2014 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -23,7 +23,7 @@
 #include <vector>
 
 #include "addon/downloader.hpp"
-#include "supertux/gameconfig.hpp"
+#include "penguin_adventure/gameconfig.hpp"
 #include "util/currenton.hpp"
 
 class Addon;

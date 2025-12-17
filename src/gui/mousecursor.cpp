@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,8 +22,8 @@
 #include <SDL_mouse.h>
 #include <memory>
 
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "sprite/sprite.hpp"
 #include "util/log.hpp"
 #include "video/drawing_context.hpp"

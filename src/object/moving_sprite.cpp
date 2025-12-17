@@ -1,4 +1,4 @@
-//  SuperTux - MovingSprite Base Class
+//  Penguin Adventure - MovingSprite Base Class
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@
 #include "math/util.hpp"
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux - Particle zone : Spawn
+//  Penguin Adventure - Particle zone : Spawn
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #pragma once
 
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/moving_object.hpp"
 
 #include "video/layer.hpp"
 

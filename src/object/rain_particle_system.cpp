@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -27,7 +27,7 @@
 #include "math/util.hpp"
 #include "object/camera.hpp"
 #include "object/rainsplash.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"

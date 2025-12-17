@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 mrkubax10 <mrkubax10@onet.pl>
 //                2021 A. Semphris <semphris@protonmail.com>
 //
@@ -19,7 +19,7 @@
 
 #include "trigger/trigger_base.hpp"
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class TextArea final : public Trigger
 {

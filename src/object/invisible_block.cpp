@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "audio/sound_manager.hpp"
 #include "editor/editor.hpp"
 #include "object/player.hpp"
-#include "supertux/constants.hpp"
+#include "penguin_adventure/constants.hpp"
 
 InvisibleBlock::InvisibleBlock(const ReaderMapping& mapping) :
   Block(mapping, "images/objects/bonus_block/invisibleblock.sprite"),

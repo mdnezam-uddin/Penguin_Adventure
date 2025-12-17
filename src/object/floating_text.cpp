@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/drawing_context.hpp"
 
 FloatingText::FloatingText(const Vector& pos, const std::string& text_) :

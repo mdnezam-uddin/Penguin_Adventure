@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 
 #include "squirrel/squirrel_util.hpp"
 #include "squirrel/squirrel_virtual_machine.hpp"
-#include "supertux/level.hpp"
+#include "penguin_adventure/level.hpp"
 #include "util/log.hpp"
 
 SquirrelScheduler::SquirrelScheduler(ssq::VM& vm) :

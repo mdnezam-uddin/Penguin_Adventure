@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //                2022 Vankata453
 //
@@ -17,10 +17,10 @@
 
 #include "gui/item_textfield.hpp"
 
-#include "supertux/colorscheme.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/colorscheme.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/string_util.hpp"
 #include "video/color.hpp"
 #include "video/drawing_context.hpp"

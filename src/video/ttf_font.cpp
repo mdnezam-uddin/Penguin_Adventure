@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>,
 //                     Tobias Markus <tobbi.bugs@googlemail.com>
 //

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 #include "gui/menu_manager.hpp"
 #include "object/path_gameobject.hpp"
 #include "object/path_object.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 #include <fmt/format.h>
 

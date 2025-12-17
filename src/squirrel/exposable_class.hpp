@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2024 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify

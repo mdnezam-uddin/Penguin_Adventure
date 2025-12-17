@@ -1,4 +1,4 @@
-//  SuperTux - Climbable area
+//  Penguin Adventure - Climbable area
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 
 #include <vector>
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Color;
 

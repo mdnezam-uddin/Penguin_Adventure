@@ -23,7 +23,7 @@
 #include "math/vector.hpp"
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 static const float FLYING_SPEED = 180.f;
 static const float CHARGING_SPEED = 150.f;

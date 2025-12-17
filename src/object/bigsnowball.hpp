@@ -17,7 +17,7 @@
 
 #include "object/moving_sprite.hpp"
 
-#include "supertux/physic.hpp"
+#include "penguin_adventure/physic.hpp"
 
 enum class Direction;
 

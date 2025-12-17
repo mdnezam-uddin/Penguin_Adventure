@@ -17,8 +17,8 @@
 #pragma once
 
 #include "object/moving_sprite.hpp"
-#include "supertux/physic.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/physic.hpp"
+#include "penguin_adventure/timer.hpp"
 #include "video/surface_ptr.hpp"
 
 class Player;

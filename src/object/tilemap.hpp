@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@
 #include "math/size.hpp"
 #include "object/path_object.hpp"
 #include "object/path_walker.hpp"
-#include "supertux/autotile.hpp"
+#include "penguin_adventure/autotile.hpp"
 #include "video/color.hpp"
 #include "video/flip.hpp"
 #include "video/drawing_target.hpp"
@@ -112,7 +112,7 @@ public:
   /** Get the movement of this tilemap. The collision detection code
       may need a non-negative y-movement. Passing `false' as the
       `actual' argument will provide that. Used exclusively in
-      src/supertux/sector.cpp. */
+      src/penguin_adventure/sector.cpp. */
   Vector get_movement(bool actual) const
   {
     if (actual) {

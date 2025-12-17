@@ -1,4 +1,4 @@
-//  SuperTux - PneumaticPlatform
+//  Penguin Adventure - PneumaticPlatform
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "object/player.hpp"
 #include "object/portable.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 PneumaticPlatformChild::PneumaticPlatformChild(const ReaderMapping& mapping, bool left, PneumaticPlatform& parent) :

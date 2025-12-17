@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2013 LMH <lmh.0013@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "math/vector.hpp"
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/game_object.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/game_object.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class CoinRain final : public GameObject
 {

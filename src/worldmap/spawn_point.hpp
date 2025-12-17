@@ -1,4 +1,4 @@
-//  SuperTux - Worldmap Spawnpoint
+//  Penguin Adventure - Worldmap Spawnpoint
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 Vankata453
 //

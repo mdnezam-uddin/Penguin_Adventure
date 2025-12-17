@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include <memory>
 
-#include "supertux/screen.hpp"
+#include "penguin_adventure/screen.hpp"
 #include "util/currenton.hpp"
 #include "video/surface_ptr.hpp"
 

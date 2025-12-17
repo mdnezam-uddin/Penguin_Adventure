@@ -1,4 +1,4 @@
-//  SuperTux - Root Sapling Badguy
+//  Penguin Adventure - Root Sapling Badguy
 //  Copyright (C) 2023 MatusGuy
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,8 +23,8 @@
 #include "object/player.hpp"
 #include "object/tilemap.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 static const float ROOT_SAPLING_RANGE = 32.f * 20;

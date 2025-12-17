@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include <algorithm>
 #include <array>
 
-#include "supertux/globals.hpp"
-#include "supertux/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
 #include "util/log.hpp"
 #include "util/obstackpp.hpp"
 #include "video/drawing_context.hpp"

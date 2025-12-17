@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -56,20 +56,20 @@
 #include "physfs/util.hpp"
 #include "sdk/integration.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/game_manager.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/level.hpp"
-#include "supertux/level_parser.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/savegame.hpp"
-#include "supertux/screen_fade.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
-#include "supertux/tile_manager.hpp"
-#include "supertux/world.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/game_manager.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/level_parser.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/savegame.hpp"
+#include "penguin_adventure/screen_fade.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
+#include "penguin_adventure/tile_manager.hpp"
+#include "penguin_adventure/world.hpp"
 #include "util/file_system.hpp"
 #include "util/reader_document.hpp"
 #include "util/reader_mapping.hpp"
@@ -78,8 +78,8 @@
 #include "video/surface.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/sector_parser.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/sector_parser.hpp"
 
 static const float CAMERA_MIN_ZOOM = 0.39f;
 static const float CAMERA_MAX_ZOOM = 3.0f;
@@ -1073,7 +1073,7 @@ Editor::setup()
     if (AddonManager::current()->is_old_addon_enabled())
     {
       auto dialog = std::make_unique<Dialog>();
-      dialog->set_text(_("Some obsolete add-ons are still active\nand might cause collisions with the default SuperTux structure.\nYou can still enable these add-ons in the menu.\nDisabling these add-ons will not delete your game progress."));
+      dialog->set_text(_("Some obsolete add-ons are still active\nand might cause collisions with the default Penguin Adventure structure.\nYou can still enable these add-ons in the menu.\nDisabling these add-ons will not delete your game progress."));
       dialog->clear_buttons();
 
       dialog->add_default_button(_("Disable add-ons"), [] {

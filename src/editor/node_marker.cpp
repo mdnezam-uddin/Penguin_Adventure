@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #include "editor/editor.hpp"
 #include "math/bezier.hpp"
 #include "math/easing.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 NodeMarker::NodeMarker(std::vector<Path::Node>::iterator node_iterator, size_t id_, UID before, UID after) :
   m_path(&node_iterator->get_parent()),

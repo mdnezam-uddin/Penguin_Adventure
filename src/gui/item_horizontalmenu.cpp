@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022-2023 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,9 +18,9 @@
 
 #include "gui/menu_manager.hpp"
 #include "math/util.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"
 #include "video/viewport.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux - Unstable Tile
+//  Penguin Adventure - Unstable Tile
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //  Copyright (C) 2010 Florian Forster <supertux at octo.it>
@@ -24,9 +24,9 @@
 #include "object/explosion.hpp"
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 
 static const float CRACK_TIME = 0.3f;
 static const float FALL_TIME = 0.8f;

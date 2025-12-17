@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -23,7 +23,7 @@
 #include <stdint.h>
 
 #include "collision/collision.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "math/fwd.hpp"
 
 class CollisionObject;

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 mrkubax10 <mrkubax10@onet.pl>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #include "gui/item_images.hpp"
 
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/surface.hpp"
 #include "video/drawing_context.hpp"
 

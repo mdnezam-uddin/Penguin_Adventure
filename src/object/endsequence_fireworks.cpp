@@ -1,4 +1,4 @@
-//  SuperTux - End Sequence: Tux walks right
+//  Penguin Adventure - End Sequence: Tux walks right
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 
 #include "object/fireworks.hpp"
 #include "object/player.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
 
 EndSequenceFireworks::EndSequenceFireworks() :
   EndSequence(),

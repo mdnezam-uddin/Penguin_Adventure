@@ -1,4 +1,4 @@
-//  SuperTux - MagicBlock
+//  Penguin Adventure - MagicBlock
 //
 //  Magic Blocks are tile-like game objects that are sensitive to
 //  lighting conditions. They are rendered in a color and
@@ -25,9 +25,9 @@
 #include "editor/editor.hpp"
 #include "object/camera.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"

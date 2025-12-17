@@ -1,4 +1,4 @@
-//  SuperTux - Weak Block
+//  Penguin Adventure - Weak Block
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
@@ -23,9 +23,9 @@
 #include "badguy/badguy.hpp"
 #include "math/random.hpp"
 #include "object/bullet.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
 #include "util/log.hpp"

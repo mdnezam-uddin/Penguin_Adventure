@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 Raoul1808 <raoulthegeek@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "object/moving_sprite.hpp"
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 /**
  * This class represents a platform that moves entities riding it.

@@ -1,4 +1,4 @@
-//  SuperTux - Unstable Tile
+//  Penguin Adventure - Unstable Tile
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //  Copyright (C) 2010 Florian Forster <supertux at octo.it>
@@ -21,8 +21,8 @@
 
 #include "object/moving_sprite.hpp"
 
-#include "supertux/physic.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/physic.hpp"
+#include "penguin_adventure/timer.hpp"
 #include "util/fade_helper.hpp"
 
 /** A block that disintegrates when stood on */

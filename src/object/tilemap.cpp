@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,16 +23,16 @@
 
 #include "editor/editor.hpp"
 #include "editor/layers_widget.hpp"
-#include "supertux/autotile.hpp"
-#include "supertux/debug.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/level.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
-#include "supertux/tile_set.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/autotile.hpp"
+#include "penguin_adventure/debug.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
+#include "penguin_adventure/tile_set.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "collision/collision_object.hpp"
 #include "collision/collision_movement_manager.hpp"
 #include "util/reader.hpp"

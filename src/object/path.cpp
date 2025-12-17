@@ -1,4 +1,4 @@
-//  SuperTux Path
+//  Penguin Adventure Path
 //  Copyright (C) 2005 Philipp <balinor@pnxs.de>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
@@ -21,7 +21,7 @@
 #include "editor/bezier_marker.hpp"
 #include "editor/node_marker.hpp"
 #include "math/easing.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 #include "util/log.hpp"

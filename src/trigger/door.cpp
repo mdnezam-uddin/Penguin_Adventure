@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,11 +22,11 @@
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/fadetoblack.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/fadetoblack.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "util/reader_mapping.hpp"
 
 static const float STAY_OPEN_TIME = 1.0f;

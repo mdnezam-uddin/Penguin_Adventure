@@ -1,4 +1,4 @@
-//  SuperTux - Thunderstorm Game Object
+//  Penguin Adventure - Thunderstorm Game Object
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,10 +23,10 @@
 #include "editor/editor.hpp"
 #include "object/background.hpp"
 #include "object/electrifier.hpp"
-#include "supertux/level.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile_manager.hpp"
-#include "supertux/tile_set.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile_manager.hpp"
+#include "penguin_adventure/tile_set.hpp"
 #include "util/reader.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"

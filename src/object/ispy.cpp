@@ -1,4 +1,4 @@
-//  SuperTux - Ispy
+//  Penguin Adventure - Ispy
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2022 Jiri Palecek <narre@protonmail.com>
 //
@@ -19,8 +19,8 @@
 
 #include "editor/editor.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/log.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"

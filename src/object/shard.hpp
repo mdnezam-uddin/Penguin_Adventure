@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,8 +17,8 @@
 #pragma once
 
 #include "object/sticky_object.hpp"
-#include "supertux/physic.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/physic.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Shard final : public StickyObject
 {

@@ -1,4 +1,4 @@
-//  SuperTux -  A Jump'n Run
+//  Penguin Adventure -  A Jump'n Run
 //  Copyright (C) 2004 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
@@ -23,8 +23,8 @@
 #include "editor/editor.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/savegame.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/savegame.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/log.hpp"
 #include "worldmap/camera.hpp"
 #include "worldmap/direction.hpp"

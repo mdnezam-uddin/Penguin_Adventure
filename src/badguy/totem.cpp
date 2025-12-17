@@ -1,4 +1,4 @@
-//  SuperTux - "Totem" Badguy
+//  Penguin Adventure - "Totem" Badguy
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 #include "audio/sound_manager.hpp"
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 static const float JUMP_ON_SPEED_Y = -400;
 static const float JUMP_OFF_SPEED_Y = -500;

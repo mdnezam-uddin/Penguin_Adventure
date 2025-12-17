@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -45,15 +45,15 @@
 #include "gui/menu_manager.hpp"
 #include "gui/mousecursor.hpp"
 #include "math/util.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "video/drawing_context.hpp"
 #include "video/renderer.hpp"
 #include "video/video_system.hpp"
 #include "video/viewport.hpp"
 
-#include "supertux/error_handler.hpp"
+#include "penguin_adventure/error_handler.hpp"
 
 // The amount in pixels the mouse has to wiggle after scrolling before it can hover over things again.
 constexpr int MOUSE_DEADZONE_AMOUNT = 70;

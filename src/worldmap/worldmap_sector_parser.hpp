@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2023 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 #pragma once
 
-#include "supertux/sector_parser.hpp"
+#include "penguin_adventure/sector_parser.hpp"
 
 namespace worldmap {
 

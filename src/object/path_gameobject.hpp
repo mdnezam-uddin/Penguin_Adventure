@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #pragma once
 
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 #include "math/fwd.hpp"
 
 class Path;

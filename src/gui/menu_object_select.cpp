@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2016 Hume2 <teratux.mail@gmail.com>
 //                2023 Vankata453
 //
@@ -24,8 +24,8 @@
 #include "gui/menu_item.hpp"
 #include "gui/menu_list.hpp"
 #include "gui/menu_manager.hpp"
-#include "supertux/game_object.hpp"
-#include "supertux/game_object_factory.hpp"
+#include "penguin_adventure/game_object.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
 #include "util/log.hpp"
 
 ObjectSelectMenu::ObjectSelectMenu(std::vector<std::unique_ptr<GameObject>>& objects, uint8_t get_objects_param,

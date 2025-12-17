@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Nir <goproducti@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 
 #include <memory>
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 #include "object/text_object.hpp"
 #include "object/text_array_item.hpp"
 

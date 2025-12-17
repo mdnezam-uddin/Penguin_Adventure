@@ -16,7 +16,7 @@
 #pragma once
 
 #include "object/moving_sprite.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class CirclePlatform : public MovingSprite
 {

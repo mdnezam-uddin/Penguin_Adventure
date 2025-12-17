@@ -13,7 +13,7 @@
 // Originally found on GitHub at : https://github.com/warrenm/AHEasing/
 // DISCLAIMER : This file, as well as the linked C source file, have been
 // modified for compatibility purposes.
-//     Edited by Semphris for SuperTux, Aug 14, 2020
+//     Edited by Semphris for Penguin Adventure, Aug 14, 2020
 //
 
 #pragma once

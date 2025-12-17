@@ -1,4 +1,4 @@
-//  SuperTux - Badguy "Igel"
+//  Penguin Adventure - Badguy "Igel"
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 MatusGuy
 //
@@ -24,7 +24,7 @@
 #include "math/easing.hpp"
 #include "object/player.hpp"
 #include "object/shard.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 namespace {
 

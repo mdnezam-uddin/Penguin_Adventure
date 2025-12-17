@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //                2024 Vankata453
 //
@@ -27,7 +27,7 @@
 #include "math/vector.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/tile_set.hpp"
+#include "penguin_adventure/tile_set.hpp"
 
 class Editor;
 class ObjectGroup;

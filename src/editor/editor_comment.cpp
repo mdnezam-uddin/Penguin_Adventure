@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2025 MatusGuy <matusguy@supertux.org>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "editor_comment.hpp"
 
 #include "editor/editor.hpp"
-#include "supertux/info_box_line.hpp"
+#include "penguin_adventure/info_box_line.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 

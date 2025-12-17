@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,8 +22,8 @@
 
 #include "control/controller.hpp"
 #include "math/vector.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/gameconfig.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"
 

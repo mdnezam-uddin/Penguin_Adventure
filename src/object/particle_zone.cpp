@@ -1,4 +1,4 @@
-//  SuperTux - Particle spawn zone
+//  Penguin Adventure - Particle spawn zone
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "object/particle_zone.hpp"
 
 #include "editor/editor.hpp"
-#include "supertux/resources.hpp"
+#include "penguin_adventure/resources.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 

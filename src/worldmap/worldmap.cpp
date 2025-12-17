@@ -1,4 +1,4 @@
-//  SuperTux -  A Jump'n Run
+//  Penguin Adventure -  A Jump'n Run
 //  Copyright (C) 2004 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 Vankata453
@@ -21,14 +21,14 @@
 #include "audio/sound_manager.hpp"
 #include "gui/menu_manager.hpp"
 #include "physfs/util.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/fadetoblack.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/level.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/player_status.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/tile_manager.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/fadetoblack.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/player_status.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/tile_manager.hpp"
 #include "util/file_system.hpp"
 #include "util/log.hpp"
 #include "util/reader.hpp"

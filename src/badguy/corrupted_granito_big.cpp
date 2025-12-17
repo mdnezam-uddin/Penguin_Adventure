@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2023 MatusGuy
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 #include "object/shard.hpp"
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 static const std::string SHARD_SPRITE = "images/creatures/granito/corrupted/big/root_spike.sprite";
 static const float RANGE = 5; // tiles

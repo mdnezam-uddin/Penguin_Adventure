@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2004-2018 Ingo Ruhnke <grumbel@gmail.com>
 //                2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 Vankata453
@@ -23,9 +23,9 @@
 #include "object/tilemap.hpp"
 #include "squirrel/squirrel_virtual_machine.hpp"
 #include "squirrel/squirrel_util.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/savegame.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/savegame.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "util/log.hpp"
 #include "worldmap/direction.hpp"
 #include "worldmap/level_tile.hpp"

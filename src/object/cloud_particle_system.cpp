@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2024 bruhmoent
 //
@@ -22,8 +22,8 @@
 
 #include "math/random.hpp"
 #include "object/camera.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"

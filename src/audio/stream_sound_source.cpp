@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "audio/sound_file.hpp"
 #include "audio/sound_manager.hpp"
 #include "audio/stream_sound_source.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 
 StreamSoundSource::StreamSoundSource() :

@@ -1,4 +1,4 @@
-//  SuperTux - Smart Snowball
+//  Penguin Adventure - Smart Snowball
 //  Copyright (C) 2008 Wolfgang Becker <uafr@gmx.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -14,8 +14,8 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_SMARTBALL_HPP
-#define HEADER_SUPERTUX_BADGUY_SMARTBALL_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_SMARTBALL_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_SMARTBALL_HPP
 
 #include "badguy/walking_badguy.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -24,8 +24,8 @@
 #include "math/bezier.hpp"
 #include "math/random.hpp"
 #include "object/path_gameobject.hpp"
-#include "supertux/d_scope.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/d_scope.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/gettext.hpp"
 #include "math/easing.hpp"
 

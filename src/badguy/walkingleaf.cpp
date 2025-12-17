@@ -1,4 +1,4 @@
-//  SuperTux - Walking Leaf
+//  Penguin Adventure - Walking Leaf
 //  Copyright (C) 2006 Wolfgang Becker <uafr@gmx.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 #include "badguy/walkingleaf.hpp"
 
 #include "sprite/sprite.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 WalkingLeaf::WalkingLeaf(const ReaderMapping& reader) :
   WalkingBadguy(reader, "images/creatures/walkingleaf/walkingleaf.sprite", "left", "right"),

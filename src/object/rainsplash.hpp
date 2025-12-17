@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "math/vector.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 
 class Player;
 

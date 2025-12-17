@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,10 +22,10 @@
 #include "control/joystick_config.hpp"
 #include "gui/menu_manager.hpp"
 #include "object/player.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/savegame.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/savegame.hpp"
 #include "util/log.hpp"
 
 JoystickManager::JoystickManager(InputManager* parent_,

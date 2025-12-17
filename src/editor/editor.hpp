@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -29,8 +29,8 @@
 #include "editor/layers_widget.hpp"
 #include "editor/scroller_widget.hpp"
 #include "interface/control.hpp"
-#include "supertux/screen.hpp"
-#include "supertux/world.hpp"
+#include "penguin_adventure/screen.hpp"
+#include "penguin_adventure/world.hpp"
 #include "util/currenton.hpp"
 #include "util/file_system.hpp"
 #include "util/log.hpp"

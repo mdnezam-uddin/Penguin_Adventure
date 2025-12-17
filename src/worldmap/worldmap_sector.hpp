@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2004 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 Vankata453
@@ -18,7 +18,7 @@
 
 #pragma once
 
-#include "supertux/sector_base.hpp"
+#include "penguin_adventure/sector_base.hpp"
 
 #include "worldmap/tux.hpp"
 

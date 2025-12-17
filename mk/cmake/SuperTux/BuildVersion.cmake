@@ -1,5 +1,5 @@
 #
-# SuperTux
+# Penguin Adventure
 # Copyright (C) 2025 MatusGuy
 #
 # This program is free software; you can redistribute it and/or modify

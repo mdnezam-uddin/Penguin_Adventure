@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 mrkubax10 <mrkubax10@onet.pl>
 //
@@ -18,7 +18,7 @@
 #pragma once
 
 #include "math/vector.hpp"
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/moving_object.hpp"
 #include "video/layer.hpp"
 
 class GameObject;

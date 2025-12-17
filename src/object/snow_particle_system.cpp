@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2024 bruhmoent
 //
@@ -21,7 +21,7 @@
 #include <math.h>
 
 #include "math/random.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "video/surface.hpp"
 #include "video/video_system.hpp"

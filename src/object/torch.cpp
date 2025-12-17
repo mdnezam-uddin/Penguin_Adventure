@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2017 M. Teufel <mteufel@supertux.org>
 //
@@ -23,7 +23,7 @@
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "util/reader_mapping.hpp"
 
 Torch::Torch(const ReaderMapping& reader) :

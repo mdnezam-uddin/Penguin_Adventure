@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 Raoul1808 <raoulthegeek@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 #include "badguy/walking_badguy.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/direction.hpp"
+#include "penguin_adventure/direction.hpp"
 #include "math/util.hpp"
 #include "util/reader_mapping.hpp"
 

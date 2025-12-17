@@ -1,4 +1,4 @@
-//  SuperTux - Add-on
+//  Penguin Adventure - Add-on
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //                2014 Ingo Ruhnke <grumbel@gmail.com>
 //

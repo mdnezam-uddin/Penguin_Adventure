@@ -1,4 +1,4 @@
-//  SuperTux - BicyclePlatform
+//  Penguin Adventure - BicyclePlatform
 //  Copyright (C) 2007 Christoph Sommer <christoph.sommer@2007.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,9 +22,9 @@
 #include "math/util.hpp"
 #include "object/player.hpp"
 #include "object/portable.hpp"
-#include "supertux/debug.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/debug.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/log.hpp"
 #include "util/reader_mapping.hpp"
 

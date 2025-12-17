@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -17,7 +17,7 @@
 
 #include "video/gl/gl_texture_renderer.hpp"
 
-#include "supertux/globals.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 #include "video/drawing_request.hpp"
 #include "video/gl.hpp"

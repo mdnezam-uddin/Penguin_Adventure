@@ -1,4 +1,4 @@
-//  SuperTux Debug Helper Functions
+//  Penguin Adventure Debug Helper Functions
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //  Copyright (C) 2010 Florian Forster <supertux at octo.it>
 //
@@ -23,13 +23,13 @@
 #endif
 
 #include "math/rectf.hpp"
-#include "supertux/console.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/console.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
 
 #ifdef __ANDROID__
-// To print only SuperTux logs in Android logcat output, use command:
-// adb logcat -s 'SuperTux:V' 'SDL:V' 'DEBUG:V'
+// To print only Penguin Adventure logs in Android logcat output, use command:
+// adb logcat -s 'Penguin Adventure:V' 'SDL:V' 'DEBUG:V'
 class _android_debugbuf: public std::streambuf
 {
   public:
@@ -87,7 +87,7 @@ class _android_debugbuf: public std::streambuf
     if (pos >= sizeof(buf) - 1 || c == '\n' || c == '\r' || c == 0)
     {
       buf[pos] = 0;
-      __android_log_print(ANDROID_LOG_INFO, "SuperTux", "%s", buf);
+      __android_log_print(ANDROID_LOG_INFO, "Penguin Adventure", "%s", buf);
       pos = 0;
       buf[pos] = 0;
     }

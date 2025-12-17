@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2013 LMH <lmh.0013@gmail.com>
 //  Copyright (C) 2024 MatusGuy <matusguy@supertuxproject.org>
@@ -26,8 +26,8 @@
 #include "object/portable.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 
 MrBomb::MrBomb(const ReaderMapping& reader) :

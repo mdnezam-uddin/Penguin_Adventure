@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2021 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 
 #include "util/uid.hpp"
 
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 /**
  * Typed UIDs allows storing GameObjects as UID while offering to option to use

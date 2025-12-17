@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2024 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -27,20 +27,20 @@
 #include "object/player.hpp"
 #include "physfs/ifile_stream.hpp"
 #include "squirrel/squirrel_virtual_machine.hpp"
-#include "supertux/console.hpp"
-#include "supertux/debug.hpp"
-#include "supertux/d_scope.hpp"
-#include "supertux/flip_level_transformer.hpp"
-#include "supertux/game_manager.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/level.hpp"
-#include "supertux/screen_manager.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/textscroller_screen.hpp"
-#include "supertux/title_screen.hpp"
+#include "penguin_adventure/console.hpp"
+#include "penguin_adventure/debug.hpp"
+#include "penguin_adventure/d_scope.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
+#include "penguin_adventure/game_manager.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/screen_manager.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/textscroller_screen.hpp"
+#include "penguin_adventure/title_screen.hpp"
 #include "worldmap/worldmap.hpp"
 
 namespace scripting {

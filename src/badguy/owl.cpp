@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2008 Wolfgang Becker <uafr@gmx.de>
 //  Copyright (C) 2010 Florian Forster <supertux at octo.it>
 //
@@ -22,8 +22,8 @@
 #include "object/player.hpp"
 #include "object/portable.hpp"
 #include "sprite/sprite.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"
 

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,12 +20,12 @@
 #include <simplesquirrel/vm.hpp>
 
 #include "editor/editor.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader.hpp"
 #include "util/reader_mapping.hpp"
-#include "supertux/globals.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/globals.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "video/drawing_context.hpp"
 
 TextObject::TextObject(const std::string& name) :

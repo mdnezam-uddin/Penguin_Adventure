@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -20,8 +20,8 @@
 #include "object/player.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/flip_level_transformer.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/flip_level_transformer.hpp"
 #include "video/color.hpp"
 #include "util/reader_mapping.hpp"
 

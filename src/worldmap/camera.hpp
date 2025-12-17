@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
 //                2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //

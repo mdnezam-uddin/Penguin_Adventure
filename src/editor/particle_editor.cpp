@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -27,10 +27,10 @@
 #include "math/easing.hpp"
 #include "object/custom_particle_system.hpp"
 #include "physfs/util.hpp"
-#include "supertux/menu/menu_storage.hpp"
-#include "supertux/menu/particle_editor_save_as.hpp"
-#include "supertux/screen_fade.hpp"
-#include "supertux/screen_manager.hpp"
+#include "penguin_adventure/menu/menu_storage.hpp"
+#include "penguin_adventure/menu/particle_editor_save_as.hpp"
+#include "penguin_adventure/screen_fade.hpp"
+#include "penguin_adventure/screen_manager.hpp"
 #include "util/file_system.hpp"
 #include "util/reader.hpp"
 #include "util/reader_document.hpp"
@@ -568,7 +568,7 @@ ParticleEditor::save(const std::string& filepath_, bool retry)
   if (!StringUtil::has_suffix(filepath, ".stcp"))
     filepath += ".stcp";
 
-  // FIXME: It tests for directory in supertux/data, but saves into .supertux2.
+  // FIXME: It tests for directory in penguin_adventure/data, but saves into .supertux2.
   //  Note: I remember writing this but I have no clue what I meant.  ~Semphris
   try {
     { // make sure the level directory exists

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2015 Hume2 <teratux.mail@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,10 +22,10 @@
 #include "gui/dialog.hpp"
 #include "gui/menu_item.hpp"
 #include "gui/menu_manager.hpp"
-#include "supertux/d_scope.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/game_object.hpp"
-#include "supertux/moving_object.hpp"
+#include "penguin_adventure/d_scope.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/game_object.hpp"
+#include "penguin_adventure/moving_object.hpp"
 
 ObjectMenu::ObjectMenu(GameObject* go, const std::function<bool (GameObject*)>& remove_function) :
   m_editor(*Editor::current()),

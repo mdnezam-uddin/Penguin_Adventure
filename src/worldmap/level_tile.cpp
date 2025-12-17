@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2004 Ingo Ruhnke <grumbel@gmail.com>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 Vankata453
@@ -21,7 +21,7 @@
 #include <physfs.h>
 
 #include "editor/editor.hpp"
-#include "supertux/level_parser.hpp"
+#include "penguin_adventure/level_parser.hpp"
 #include "util/file_system.hpp"
 #include "util/gettext.hpp"
 #include "util/log.hpp"

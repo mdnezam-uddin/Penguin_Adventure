@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2018 Nir <goproducti@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 #include <simplesquirrel/vm.hpp>
 
 #include "control/input_manager.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/sector.hpp"
 
 TextArrayObject::TextArrayObject(const std::string& name) :
   LayerObject(name),

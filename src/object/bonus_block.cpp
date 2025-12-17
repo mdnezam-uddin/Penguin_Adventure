@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2009 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -36,10 +36,10 @@
 #include "object/specialriser.hpp"
 #include "object/star.hpp"
 #include "object/trampoline.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/game_object_factory.hpp"
-#include "supertux/level.hpp"
-#include "supertux/sector.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/game_object_factory.hpp"
+#include "penguin_adventure/level.hpp"
+#include "penguin_adventure/sector.hpp"
 #include "util/reader_collection.hpp"
 #include "util/reader_mapping.hpp"
 #include "util/writer.hpp"

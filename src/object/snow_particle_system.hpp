@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2024 bruhmoent
 //
@@ -18,7 +18,7 @@
 #pragma once
 
 #include "object/particlesystem.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class ReaderMapping;
 

@@ -1,4 +1,4 @@
-//  SuperTux -- List menu
+//  Penguin Adventure -- List menu
 //  Copyright (C) 2021 Rami <rami.slicer@gmail.com>
 //                2023 Vankata453
 //

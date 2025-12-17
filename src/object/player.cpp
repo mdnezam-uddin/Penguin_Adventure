@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software; you can redistribute it and/or
@@ -40,12 +40,12 @@
 #include "object/sprite_particle.hpp"
 #include "sprite/sprite.hpp"
 #include "sprite/sprite_manager.hpp"
-#include "supertux/constants.hpp"
-#include "supertux/game_session.hpp"
-#include "supertux/gameconfig.hpp"
-#include "supertux/resources.hpp"
-#include "supertux/sector.hpp"
-#include "supertux/tile.hpp"
+#include "penguin_adventure/constants.hpp"
+#include "penguin_adventure/game_session.hpp"
+#include "penguin_adventure/gameconfig.hpp"
+#include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/tile.hpp"
 #include "trigger/climbable.hpp"
 #include "trigger/trigger_base.hpp"
 #include "video/surface.hpp"

@@ -1,4 +1,4 @@
-//  SuperTux - Corrupted Root
+//  Penguin Adventure - Corrupted Root
 //  Copyright (C) 2023 MatusGuy <matusguy@supertuxproject.org>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -14,12 +14,12 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#ifndef HEADER_SUPERTUX_BADGUY_ROOT_HPP
-#define HEADER_SUPERTUX_BADGUY_ROOT_HPP
+#ifndef HEADER_PENGUIN_ADVENTURE_BADGUY_ROOT_HPP
+#define HEADER_PENGUIN_ADVENTURE_BADGUY_ROOT_HPP
 
 #include "badguy/badguy.hpp"
 
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Root final : public BadGuy
 {

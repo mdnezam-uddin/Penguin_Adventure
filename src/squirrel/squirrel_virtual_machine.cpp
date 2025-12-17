@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2014 Ingo Ruhnke <grumbel@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -25,8 +25,8 @@
 #include "squirrel/squirrel_thread_queue.hpp"
 #include "squirrel/squirrel_util.hpp"
 #include "squirrel/supertux_api.hpp"
-#include "supertux/console.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/console.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 
 #ifdef ENABLE_SQDBG
@@ -89,7 +89,7 @@ SquirrelVirtualMachine::SquirrelVirtualMachine(bool enable_debugger) :
   m_vm.remove("srand");
   m_vm.remove("rand");
 
-  // Register SuperTux API.
+  // Register Penguin Adventure API.
   register_supertux_scripting_api(m_vm);
 
   // Try to load the default script.

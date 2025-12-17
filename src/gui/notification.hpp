@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2022 Vankata453
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 
 #include "control/controller.hpp"
 #include "math/sizef.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 #include "video/drawing_context.hpp"
 
 class Notification

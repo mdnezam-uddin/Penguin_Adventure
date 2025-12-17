@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2018 Ingo Ruhnke <grumbel@gmail.com>
 //
@@ -22,7 +22,7 @@
 #include <memory>
 #include <vector>
 
-#include "supertux/info_box_line.hpp"
+#include "penguin_adventure/info_box_line.hpp"
 #include "control/controller.hpp"
 
 class DrawingContext;

@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2020 A. Semphris <semphris@protonmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -30,7 +30,7 @@
 #include "interface/control_textbox_int.hpp"
 #include "interface/label.hpp"
 #include "object/custom_particle_system.hpp"
-#include "supertux/screen.hpp"
+#include "penguin_adventure/screen.hpp"
 #include "util/currenton.hpp"
 #include "util/writer.hpp"
 

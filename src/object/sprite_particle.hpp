@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
@@ -19,10 +19,10 @@
 
 #include "math/anchor_point.hpp"
 #include "sprite/sprite_ptr.hpp"
-#include "supertux/game_object.hpp"
+#include "penguin_adventure/game_object.hpp"
 #include "video/color.hpp"
 #include "video/drawing_context.hpp"
-#include "supertux/timer.hpp"
+#include "penguin_adventure/timer.hpp"
 
 class Player;
 

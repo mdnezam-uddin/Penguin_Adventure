@@ -4,7 +4,7 @@
 option(BUILD_DOCUMENTATION "Build API documentation using Doxygen" ${DOXYGEN_FOUND})
 option(BUILD_DOCUMENTATION_WITH_SCRIPTING "Build API documentation, including scripting API, using Doxygen" OFF)
 
-# CMakeLists, including this file from a different directory, can define PROJECT_SOURCE_DIR as the path to the SuperTux source.
+# CMakeLists, including this file from a different directory, can define PROJECT_SOURCE_DIR as the path to the Penguin Adventure source.
 if(NOT DEFINED PROJECT_SOURCE_DIR)
   # If not set, use the current source directory.
   set(PROJECT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})

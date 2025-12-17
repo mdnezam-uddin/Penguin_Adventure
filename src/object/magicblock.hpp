@@ -1,4 +1,4 @@
-//  SuperTux - MagicBlock
+//  Penguin Adventure - MagicBlock
 //
 //  Magic Blocks are tile-like game objects that are sensitive to
 //  lighting conditions. They are rendered in a color and

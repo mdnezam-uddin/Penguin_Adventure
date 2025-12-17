@@ -1,4 +1,4 @@
-//  SuperTux
+//  Penguin Adventure
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@
 #include <assert.h>
 
 #include "editor/editor.hpp"
-#include "supertux/direction.hpp"
-#include "supertux/globals.hpp"
+#include "penguin_adventure/direction.hpp"
+#include "penguin_adventure/globals.hpp"
 #include "util/log.hpp"
 #include "video/surface.hpp"
 
