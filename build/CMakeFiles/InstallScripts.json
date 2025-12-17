@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/sexp-cpp/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/SDL_ttf/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/SDL_SavePNG/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/simplesquirrel/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/simplesquirrel/libs/squirrel/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/simplesquirrel/libs/squirrel/squirrel/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/simplesquirrel/libs/squirrel/sqstdlib/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/simplesquirrel/libs/squirrel/sq/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/partio_zip/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/findlocale/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/obstack/cmake_install.cmake",
+		"/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/build/external/tinygettext/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

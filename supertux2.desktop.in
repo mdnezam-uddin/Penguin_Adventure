@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SuperTux @SUPERTUX_VERSION@
+GenericName=Jump and run game
+Comment=A jump and run game starring Tux
+Exec=supertux2
+Icon=supertux
+Terminal=false
+StartupNotify=false
+Categories=Game;ArcadeGame;
+Keywords=tux;game;jump;run;

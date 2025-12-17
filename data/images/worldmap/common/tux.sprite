@@ -1,0 +1,4 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images "../../creatures/tux/small/stand-0.png")))

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fno-strict-aliasing -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib CMakeFiles/sq_static.dir/sq.c.o -o ../bin/sq_static  ../lib/libsquirrel_static.a ../lib/libsqstdlib_static.a

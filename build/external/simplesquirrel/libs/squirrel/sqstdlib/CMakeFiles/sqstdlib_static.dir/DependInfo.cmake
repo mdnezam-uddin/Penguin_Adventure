@@ -1,0 +1,30 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdaux.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdaux.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdaux.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdblob.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdblob.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdblob.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdio.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdio.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdio.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdmath.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdmath.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdmath.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdrex.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdrex.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdrex.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdstream.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdstream.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdstream.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdstring.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdstring.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdstring.cpp.o.d"
+  "/Users/mdnezamuddin/Study /7th Semester/Practice in software development/penguin adventure/external/simplesquirrel/libs/squirrel/sqstdlib/sqstdsystem.cpp" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdsystem.cpp.o" "gcc" "external/simplesquirrel/libs/squirrel/sqstdlib/CMakeFiles/sqstdlib_static.dir/sqstdsystem.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
