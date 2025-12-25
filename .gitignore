@@ -1,3 +1,4 @@
 external/SDL_ttf
 LICENSE.txt
 build/
+supertux2.desktop.in
