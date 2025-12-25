@@ -11,18 +11,22 @@ Penguin Adventure is a classic-style jump'n'run game with challenging levels, va
 The game now includes a dynamic stage system that tracks your progress throughout gameplay:
 
 ### Stages
+
 - **Stage 1 - Beginner Stage**: Starting stage where you begin your adventure
 - **Stage 2 - Intermediate Stage**: Unlocks after collecting 50 coins and defeating 10 enemies
 - **Stage 3 - Advanced Stage**: Unlocks after collecting 150 coins and defeating 30 enemies
 
 ### Features
+
 - Real-time stage display at the top of the screen
 - Progress tracking showing requirements for next stage
 - Cumulative coin and enemy counters across all levels
 - Stage information updates automatically as you play
 
 ### Developer Shortcuts (Testing Mode)
+
 When developer mode is enabled, you can quickly switch between stages:
+
 - **F5**: Switch to Stage 1
 - **F6**: Switch to Stage 2
 - **F7**: Switch to Stage 3
@@ -46,6 +50,7 @@ For detailed information about the stage system, see [STAGE_SYSTEM.md](STAGE_SYS
 Before building the game, ensure you have the following installed:
 
 ### macOS (using Homebrew)
+
 ```bash
 # Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -56,6 +61,7 @@ brew install cmake sdl2 sdl2_image openal-soft libogg libvorbis \
 ```
 
 ### Ubuntu/Debian
+
 ```bash
 sudo apt-get update
 sudo apt-get install cmake g++ libsdl2-dev libsdl2-image-dev \
@@ -69,12 +75,14 @@ sudo apt-get install cmake g++ libsdl2-dev libsdl2-image-dev \
 ### First Time Setup
 
 1. **Clone the repository:**
+
 ```bash
 git clone https://github.com/mdnezam-uddin/Penguin_Adventure.git
 cd "Penguin_Adventure"
 ```
 
 2. **Create build directory:**
+
 ```bash
 mkdir -p build
 cd build
@@ -83,16 +91,19 @@ cd build
 3. **Configure with CMake:**
 
 **For macOS:**
+
 ```bash
 PKG_CONFIG_PATH="/opt/homebrew/Cellar/openal-soft/1.24.3/lib/pkgconfig:$PKG_CONFIG_PATH" cmake ..
 ```
 
 **For Linux:**
+
 ```bash
 cmake ..
 ```
 
 4. **Build the game:**
+
 ```bash
 make -j4
 ```
@@ -113,11 +124,13 @@ PKG_CONFIG_PATH="/opt/homebrew/Cellar/openal-soft/1.24.3/lib/pkgconfig:$PKG_CONF
 ### Basic Run
 
 From the project root directory:
+
 ```bash
 ./build/penguin_adventure2
 ```
 
 Or from the build directory:
+
 ```bash
 cd build
 ./penguin_adventure2
@@ -148,6 +161,7 @@ cd build
 ## Controls
 
 ### Gameplay
+
 - **Arrow Keys**: Move left/right, look up/down
 - **Space Bar**: Jump
 - **Left Ctrl**: Fire/Run/Action
@@ -156,6 +170,7 @@ cd build
 - **Esc**: Pause menu
 
 ### Developer Mode Shortcuts (when enabled)
+
 - **F5**: Force switch to Stage 1
 - **F6**: Force switch to Stage 2
 - **F7**: Force switch to Stage 3
@@ -175,6 +190,7 @@ cd build
 7. **Avoid Enemies**: Jump on enemies or avoid them to survive
 
 ### Tips
+
 - Collect as many coins as possible to progress through stages faster
 - Defeat enemies to increase your stage progression
 - Look for secret areas and hidden coins
@@ -204,8 +220,7 @@ penguin-adventure/
 ├── tools/                 # Development tools
 ├── CMakeLists.txt        # Build configuration
 ├── README.md             # This file
-├── STAGE_SYSTEM.md       # Detailed stage system documentation
-└── LICENSE.txt           # License information
+└── STAGE_SYSTEM.md       # Detailed stage system documentation
 ```
 
 ## Development
@@ -222,7 +237,9 @@ This project is being developed as part of the 7th Semester Practice in Software
 ## Troubleshooting
 
 ### OpenAL not found (macOS)
+
 If you get OpenAL errors during build:
+
 ```bash
 # Find OpenAL installation
 find /opt/homebrew -name "*openal*.pc"
@@ -232,7 +249,9 @@ PKG_CONFIG_PATH="/opt/homebrew/Cellar/openal-soft/[VERSION]/lib/pkgconfig:$PKG_C
 ```
 
 ### Build directory cleanup
+
 If you encounter build issues:
+
 ```bash
 cd build
 rm -rf *
@@ -240,6 +259,7 @@ cmake .. && make -j4
 ```
 
 ### Game won't start
+
 - Ensure you're running from the correct directory (project root or build/)
 - Check that data/ directory exists and contains game assets
 - Verify all dependencies are installed
@@ -250,13 +270,13 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## License
 
-This project is based on SuperTux and follows GPL licensing. See LICENSE.txt for full licensing information.
+This project is licensed under GPL v2. For full licensing information, please refer to the GPL v2 license terms.
 
 ## Credits
 
-- Original SuperTux team for the game engine
-- Course instructors and peers for guidance
-- See data/AUTHORS and data/ACKNOWLEDGEMENTS.txt for full credits
+- Course instructors and peers for guidance and support
+- Open source community for various libraries and tools
+- See data/AUTHORS and data/ACKNOWLEDGEMENTS.txt for additional credits
 
 ## Repository
 
@@ -270,4 +290,4 @@ For questions or issues, please open an issue on GitHub or contact the developme
 
 **Enjoy your Penguin Adventure! 🐧**
 
-*Progress through the stages and become the ultimate penguin champion!*
+_Progress through the stages and become the ultimate penguin champion!_
