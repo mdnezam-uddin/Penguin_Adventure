@@ -30,6 +30,7 @@
 #include "penguin_adventure/screen_manager.hpp"
 #include "penguin_adventure/game_session.hpp"
 #include "penguin_adventure/sector.hpp"
+#include "penguin_adventure/stage_manager.hpp"
 #include "video/drawing_context.hpp"
 #include "video/surface.hpp"
 #include "editor/editor.hpp"
@@ -154,5 +155,73 @@ PlayerStatusHUD::draw(DrawingContext& context)
     }
   }
 
+  // Draw stage information
+  draw_stage_info(context);
+
   context.pop_transform();
 }
+
+void
+PlayerStatusHUD::draw_stage_info(DrawingContext& context)
+{
+  // Only show stage info in actual gameplay, not in menus or worldmap
+  if (!GameSession::current() || !GameSession::current()->is_active())
+    return;
+    
+  if (!StageManager::current())
+    return;
+
+  StageManager* stage_mgr = StageManager::current();
+  
+  // Position at top center of screen
+  float x_pos = context.get_width() / 2.0f;
+  float y_pos = BORDER_Y;
+  
+  // Draw stage number and name
+  std::string stage_text = "STAGE " + std::to_string(stage_mgr->get_stage_number()) + 
+                           " - " + stage_mgr->get_stage_name();
+  
+  // Draw with shadow for better visibility
+  context.color().draw_text(Resources::big_font,
+                            stage_text,
+                            Vector(x_pos + 2, y_pos + 2),
+                            ALIGN_CENTER,
+                            LAYER_HUD,
+                            Color(0, 0, 0, 0.7f)); // Shadow
+  
+  context.color().draw_text(Resources::big_font,
+                            stage_text,
+                            Vector(x_pos, y_pos),
+                            ALIGN_CENTER,
+                            LAYER_HUD,
+                            Color(1.0f, 1.0f, 0.0f)); // Yellow text
+  
+  // Show progress to next stage if not at max
+  if (stage_mgr->get_stage_number() < 3)
+  {
+    int coins_needed = stage_mgr->get_coins_for_next_stage();
+    int enemies_needed = stage_mgr->get_enemies_for_next_stage();
+    
+    std::string progress_text = "Next Stage: " + 
+                                std::to_string(coins_needed) + " coins, " +
+                                std::to_string(enemies_needed) + " enemies";
+    
+    context.color().draw_text(Resources::small_font,
+                              progress_text,
+                              Vector(x_pos, y_pos + 30),
+                              ALIGN_CENTER,
+                              LAYER_HUD,
+                              Color(0.8f, 0.8f, 1.0f));
+  }
+  else
+  {
+    // At max stage
+    context.color().draw_text(Resources::small_font,
+                              "FINAL STAGE!",
+                              Vector(x_pos, y_pos + 30),
+                              ALIGN_CENTER,
+                              LAYER_HUD,
+                              Color(1.0f, 0.5f, 0.0f));
+  }
+}
+

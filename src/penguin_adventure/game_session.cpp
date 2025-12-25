@@ -81,6 +81,7 @@ GameSession::GameSession(Savegame* savegame, Statistics* statistics) :
   m_savegame(savegame),
   m_levelstream(nullptr),
   m_tmp_playerstatus(0),
+  m_stage_manager(std::make_unique<StageManager>()),
   m_play_time(0),
   m_levelintro_shown(false),
   m_coins_at_start(),

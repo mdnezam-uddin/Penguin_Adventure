@@ -45,6 +45,7 @@ class Player;
 class Sector;
 class Statistics;
 class Savegame;
+class StageManager;
 
 /** Screen that runs a Level, where Players run and jump through Sectors. */
 class GameSession final : public Screen,
@@ -116,8 +117,11 @@ public:
 
   inline const SpawnPoint& get_last_spawnpoint() const { return m_spawnpoints.back(); }
 
-  void set_checkpoint_pos(const std::string& sectorname, const Vector& pos);
+  set_checkpoint_pos(const std::string& sectorname, const Vector& pos);
   inline const SpawnPoint* get_active_checkpoint_spawnpoint() const { return m_activated_checkpoint; }
+  
+  /** Get the stage manager */
+  inline StageManager* get_stage_manager() const { return m_stage_manager.get(); }
 
   inline Sector& get_current_sector() const { return *m_currentsector; }
   inline Level& get_current_level() const { return *m_level; }
@@ -195,6 +199,9 @@ private:
   Savegame* m_savegame;
 
   PlayerStatus m_tmp_playerstatus;
+  
+  // Stage tracking
+  std::unique_ptr<StageManager> m_stage_manager;
 
   // Note: m_play_time should reset when a level is restarted from the beginning
   //       but NOT if Tux respawns at a checkpoint (for LevelTimes to work)

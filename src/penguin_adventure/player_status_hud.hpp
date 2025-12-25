@@ -24,6 +24,7 @@
 
 #include "sprite/sprite.hpp"
 #include "penguin_adventure/player_status.hpp"
+#include "penguin_adventure/stage_manager.hpp"
 #include "video/color.hpp"
 #include "video/surface_ptr.hpp"
 
@@ -48,6 +49,9 @@ public:
   void on_item_pocket_change(Player* player);
   void reset();
 
+private:
+  void draw_stage_info(DrawingContext& context);
+  
 private:
   PlayerStatus& m_player_status;
   Timer m_item_pocket_fade;

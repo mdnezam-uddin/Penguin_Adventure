@@ -122,8 +122,8 @@ endif()
 include(ConfigureChecks)
 
 ## Some additional compiler switches
-include(Penguin Adventure/ClangTidy)
-include(Penguin Adventure/WarningFlags)
+include(SuperTux/ClangTidy)
+include(SuperTux/WarningFlags)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-strict-aliasing")
@@ -147,7 +147,7 @@ endif()
 option(ENABLE_OPENGL "Enable OpenGL support" ON)
 
 # Find dependencies
-include(Penguin Adventure/AddPackage)
+include(SuperTux/AddPackage)
 
 add_package(TARGET PNG
   PKG PNG PKG_USE PNG::PNG PKG_CONFIG libpng REQUIRED)

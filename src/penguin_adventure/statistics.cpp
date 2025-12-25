@@ -31,6 +31,8 @@
 #include "penguin_adventure/globals.hpp"
 #include "penguin_adventure/level.hpp"
 #include "penguin_adventure/resources.hpp"
+#include "penguin_adventure/stage_manager.hpp"
+#include "penguin_adventure/game_session.hpp"
 #include "util/gettext.hpp"
 #include "util/log.hpp"
 #include "util/reader_mapping.hpp"
@@ -612,6 +614,16 @@ Statistics::time_to_string(float time)
 void
 Statistics::check_coins()
 {
+  // Update stage manager with coin collection
+  if (GameSession::current())
+  {
+    StageManager* stage_mgr = GameSession::current()->get_stage_manager();
+    if (stage_mgr)
+    {
+      stage_mgr->update_progress(1, 0);
+    }
+  }
+  
   if (!m_preferences.enable_coins || m_cleared_coins)
     return;
 
@@ -625,6 +637,16 @@ Statistics::check_coins()
 void
 Statistics::check_badguys()
 {
+  // Update stage manager with enemy kill
+  if (GameSession::current())
+  {
+    StageManager* stage_mgr = GameSession::current()->get_stage_manager();
+    if (stage_mgr)
+    {
+      stage_mgr->update_progress(0, 1);
+    }
+  }
+  
   if (!m_preferences.enable_badguys || m_cleared_badguys)
     return;
 
